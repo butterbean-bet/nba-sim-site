@@ -1,0 +1,139 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NBA Pick'em Sim</title><style>
+:root{--bg:#0b0f17;--card:#141b27;--line:#243044;--tx:#e8edf5;--mu:#8b98ad;--ac:#22c55e;--hm:#3b82f6;--aw:#f97316;--warn:#fdba74}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{padding:16px 16px 8px;background:linear-gradient(135deg,#0f2a1a,#0b0f17)}h1{margin:0;font-size:22px}h1 b{color:var(--ac)}.sub{color:var(--mu);font-size:13px}
+nav{position:sticky;top:0;z-index:5;display:flex;gap:6px;overflow-x:auto;padding:10px 12px;background:var(--bg);border-bottom:1px solid var(--line)}
+nav button{flex:none;background:var(--card);color:var(--tx);border:1px solid var(--line);border-radius:20px;padding:8px 14px;font-weight:600;font-size:14px}
+nav button.on{background:var(--ac);color:#04130a;border-color:var(--ac)}main{padding:12px;max-width:900px;margin:auto}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px}
+.row{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}.mt{font-size:18px;font-weight:700}.mu{color:var(--mu);font-size:13px}
+.kv{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:6px}.kv div{background:#0f1520;border-radius:8px;padding:6px 8px}
+.kv span{display:block;color:var(--mu);font-size:11px;text-transform:uppercase}
+.note{background:#3a1d0b;border:1px solid #7c3a10;color:var(--warn);border-radius:10px;padding:10px;margin-bottom:12px;font-weight:600}
+.info{background:#0f2a1a;border:1px solid #14532d;color:#86efac;border-radius:10px;padding:10px;margin-bottom:12px}
+.pill{background:var(--ac);color:#04130a;border-radius:10px;padding:1px 7px;font-size:11px;font-weight:700}
+.pill.no{background:#7c3a10;color:#fdba74}.pill.wait{background:#243044;color:var(--mu)}
+.tag{display:inline-block;background:#0f1520;border:1px solid var(--line);border-radius:8px;padding:2px 8px;font-size:12px;color:var(--mu);margin:2px 4px 2px 0}
+table{width:100%;border-collapse:collapse;font-size:14px}th{text-align:left;color:var(--mu);font-size:12px;font-weight:600;padding:6px;border-bottom:1px solid var(--line);background:var(--card)}
+td{padding:7px 6px;border-bottom:1px solid var(--line);vertical-align:top}td.n{text-align:right;white-space:nowrap}tr.v td{background:#0f2f1c}tr.pending td{opacity:.85}
+h3{margin:0 0 8px;font-size:16px}.tw{overflow-x:auto}input,select{width:100%;background:#0f1520;color:var(--tx);border:1px solid var(--line);border-radius:10px;padding:10px;font-size:15px;margin-bottom:8px}
+.f{display:flex;flex-wrap:wrap;gap:2px;margin-top:8px}footer{color:var(--mu);font-size:12px;text-align:center;padding:20px}
+</style></head><body>
+<header><h1>NBA Pick'em <b id="wk"></b></h1><div class="sub" id="up"></div></header>
+<nav id="nav"></nav><main id="m"></main>
+<footer>Underdog &amp; PrizePicks pick'em only. Free schedule/injuries via ESPN. No Odds API. Cutoffs are not locks — only play if the app line clears them. Not betting advice.</footer>
+<script>
+const D={"title":"NBA Pick'em","date":"2026-10-28","days":"Wednesday Oct 28","updated":"Oct 28, 2026 8:39 PM CT","note":"Underdog & PrizePicks only. Never invent lines \u2014 only play if the app line is at or below the cutoff. Grades post after games finalize.","tabs":{"Games":{"h":["Matchup","Tip CT","Status","Score","Venue"],"r":[["MIA @ ATL","6:00 PM CT","Final","MIA 129\u2013117 ATL","State Farm Arena"],["WSH @ CLE","6:00 PM CT","Final","WSH 111\u2013121 CLE","Rocket Arena"],["CHA @ DET","6:00 PM CT","Final","CHA 89\u201397 DET","Little Caesars Arena"],["PHI @ IND","6:00 PM CT","3:41 - 4th Quarter","PHI 101\u201398 IND","Gainbridge Fieldhouse"],["ORL @ TOR","6:30 PM CT","8:49 - 4th Quarter","ORL 85\u2013107 TOR","Scotiabank Arena"],["NY @ CHI","7:00 PM CT","7:03 - 3rd Quarter","NY 68\u201381 CHI","United Center"],["HOU @ MIL","7:00 PM CT","5:42 - 3rd Quarter","HOU 73\u201358 MIL","Fiserv Forum"],["GS @ MIN","7:00 PM CT","8:01 - 3rd Quarter","GS 73\u201350 MIN","Target Center"],["DEN @ NO","7:00 PM CT","4:08 - 3rd Quarter","DEN 75\u201362 NO","Smoothie King Center"],["SA @ UTAH","8:00 PM CT","End of 1st Quarter","SA 22\u201332 UTAH","Delta Center"],["OKC @ DAL","8:30 PM CT","8:30 PM CT","\u2014","American Airlines Center"],["LAL @ LAC","9:30 PM CT","9:30 PM CT","\u2014","Intuit Dome"]],"cards":[{"matchup":"MIA @ ATL","away":"MIA","home":"ATL","away_name":"Miami Heat","home_name":"Atlanta Hawks","tip":"6:00 PM CT","state":"post","clock":"Final","score":"MIA 129\u2013117 ATL","venue":"State Farm Arena"},{"matchup":"WSH @ CLE","away":"WSH","home":"CLE","away_name":"Washington Wizards","home_name":"Cleveland Cavaliers","tip":"6:00 PM CT","state":"post","clock":"Final","score":"WSH 111\u2013121 CLE","venue":"Rocket Arena"},{"matchup":"CHA @ DET","away":"CHA","home":"DET","away_name":"Charlotte Hornets","home_name":"Detroit Pistons","tip":"6:00 PM CT","state":"post","clock":"Final","score":"CHA 89\u201397 DET","venue":"Little Caesars Arena"},{"matchup":"PHI @ IND","away":"PHI","home":"IND","away_name":"Philadelphia 76ers","home_name":"Indiana Pacers","tip":"6:00 PM CT","state":"in","clock":"3:41 - 4th Quarter","score":"PHI 101\u201398 IND","venue":"Gainbridge Fieldhouse"},{"matchup":"ORL @ TOR","away":"ORL","home":"TOR","away_name":"Orlando Magic","home_name":"Toronto Raptors","tip":"6:30 PM CT","state":"in","clock":"8:49 - 4th Quarter","score":"ORL 85\u2013107 TOR","venue":"Scotiabank Arena"},{"matchup":"NY @ CHI","away":"NY","home":"CHI","away_name":"New York Knicks","home_name":"Chicago Bulls","tip":"7:00 PM CT","state":"in","clock":"7:03 - 3rd Quarter","score":"NY 68\u201381 CHI","venue":"United Center"},{"matchup":"HOU @ MIL","away":"HOU","home":"MIL","away_name":"Houston Rockets","home_name":"Milwaukee Bucks","tip":"7:00 PM CT","state":"in","clock":"5:42 - 3rd Quarter","score":"HOU 73\u201358 MIL","venue":"Fiserv Forum"},{"matchup":"GS @ MIN","away":"GS","home":"MIN","away_name":"Golden State Warriors","home_name":"Minnesota Timberwolves","tip":"7:00 PM CT","state":"in","clock":"8:01 - 3rd Quarter","score":"GS 73\u201350 MIN","venue":"Target Center"},{"matchup":"DEN @ NO","away":"DEN","home":"NO","away_name":"Denver Nuggets","home_name":"New Orleans Pelicans","tip":"7:00 PM CT","state":"in","clock":"4:08 - 3rd Quarter","score":"DEN 75\u201362 NO","venue":"Smoothie King Center"},{"matchup":"SA @ UTAH","away":"SA","home":"UTAH","away_name":"San Antonio Spurs","home_name":"Utah Jazz","tip":"8:00 PM CT","state":"in","clock":"End of 1st Quarter","score":"SA 22\u201332 UTAH","venue":"Delta Center"},{"matchup":"OKC @ DAL","away":"OKC","home":"DAL","away_name":"Oklahoma City Thunder","home_name":"Dallas Mavericks","tip":"8:30 PM CT","state":"pre","clock":"8:30 PM CT","score":null,"venue":"American Airlines Center"},{"matchup":"LAL @ LAC","away":"LAL","home":"LAC","away_name":"Los Angeles Lakers","home_name":"LA Clippers","tip":"9:30 PM CT","state":"pre","clock":"9:30 PM CT","score":null,"venue":"Intuit Dome"}]},"Pick'em":{"h":["Date","Player","Stat","Cutoff / Line","Side","App","Confirmed","Result"],"r":[["2026-10-22","Shai Gilgeous-Alexander","Points","UNCONFIRMED (play if <=30.5)","More","PrizePicks/Underdog","No","Pending"],["2026-10-22","Tyrese Maxey","Points+Assists","UNCONFIRMED (play if <=32.5)","More","PrizePicks/Underdog","No","Pending"],["2026-10-22","Joel Embiid","Rebounds","UNCONFIRMED (play if <=9.5)","More","PrizePicks/Underdog","No","Pending"],["2026-10-22","LeBron James","Rebounds+Assists","UNCONFIRMED (play if <=14.5)","More","PrizePicks/Underdog","No","Pending"],["2026-10-22","Jaylen Brown","Rebounds","UNCONFIRMED (play if <=6.5)","More","PrizePicks/Underdog","No","Pending"],["2026-10-22","Chet Holmgren","Blocks","UNCONFIRMED (play if <=2.5)","More","PrizePicks/Underdog","No","Pending"]],"entries":{"2-pick":"Prefer a confirmed More on a star scorer + a combo (pts+ast or reb+ast) when both app lines clear the cutoff.","3-pick":"Add a rebound or blocks lean only when the line is soft and the matchup is clear.","note":"No fresh confirmed Underdog/PrizePicks lines loaded for tonight yet. Open the apps and only play if the posted line is at or below a cutoff you trust."}},"Player Props":{"h":["Player","Team","Game","Stat","App Line","Side","Notes"],"r":[],"placeholder":"Player prop board fills when confirmed Underdog / PrizePicks lines are logged. Free sources only \u2014 Odds API credits are not used."},"Injuries":{"h":["Team","Player","Status","Note"],"r":[["ATL","Mouhamed Gueye","Out","Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during\u2026"],["ATL","Henri Veesaar","Out","Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season,\u2026"],["CHA","Coby White","Out","Head coach Charles Lee said Monday that White (calf) remains without a timeline for a r\u2026"],["CHA","Kon Knueppel","Out","Knueppel (hamstring) is without a timetable for a return, Rod Boone of The Charlotte Ob\u2026"],["CHA","Grant Williams","Out","Williams (hamstring) will be re-evaluated following Charlotte's upcoming two-game road \u2026"],["CHA","Kylan Boswell","Out","Boswell (knee) is out for Wednesday's season opener against the Nets."],["CHI","Tobe Awaka","Out","Awaka (ankle) is out for Wednesday's game against the Knicks, Joel Lorenzi of The Athle\u2026"],["CHI","Patrick Williams","Out","Williams (adductor) won't play in Wednesday's game against the Knicks, Joel Lorenzi of \u2026"],["CHI","Nic Claxton","Out","Claxton (hamstring) participated in individual drills Monday morning and hopes to join \u2026"],["DAL","Naji Marshall","Out","Marshall (illness) won't play in Wednesday's game against Oklahoma City."],["DAL","Tarik Biberovic","Out","Biberovic (knee) is out for Wednesday's game against the Thunder."],["DAL","Santi Aldama","Out","Aldama (knee) is out for Wednesday's game against the Thunder."],["DAL","Sergio de Larrea","Out","De Larrea (knee) has been ruled out for Wednesday's game against the Thunder."],["DAL","Dereck Lively II","Out","Lively (foot) has been ruled out for Friday's game against the Pacers."],["DEN","Cameron Johnson","Out","Johnson (ankle) is listed as out for Wednesday's game against the Pelicans."],["DEN","Spencer Jones","Out","Jones (hamstring) has been ruled out for Wednesday's game against New Orleans."],["DEN","Alpha Diallo","Out","Diallo is out for Wednesday's game against the Pelicans due to personal reasons."],["DEN","Julian Strawther","Out","Strawther (knee) was diagnosed with a left knee sprain Friday and will be re-evaluated \u2026"],["DET","Isaiah Joe","Out","Joe (hip) is out for Wednesday's game against the Hornets."],["DET","Jalen Duren","Out","Duren will be re-evaluated in two weeks due to a right hamstring strain, Eric Vincent o\u2026"],["GS","Gui Santos","Out","Santos has been ruled out for Wednesday's game against the Timberwolves due to left kne\u2026"],["GS","Kristaps Porzingis","Out","The Warriors are exploring potential trades involving Porzingis (personal), who remains\u2026"],["GS","Moses Moody","Out","Moody (knee) is progressing toward a potential return between December and January afte\u2026"],["GS","Jimmy Butler III","Out","Butler (knee) could return sometime between January and February as he continues recove\u2026"],["HOU","Marcus Smart","Out","Smart (forearm) is out for Wednesday's game against the Bucks."],["HOU","Alperen Sengun","Out","Sengun (back) has been ruled out for Wednesday's game against the Bucks."],["HOU","Steven Adams","Out","Head coach Ime Udoka said Monday that Adams could be out \"a week or two\" due to his rig\u2026"],["IND","T.J. McConnell","Out","Pacers head coach Rick Carlisle stated McConnell (hamstring) is \"doing better\" and \"get\u2026"],["IND","Ben Sheppard","Out","Head coach Rick Carlise confirmed Sheppard will miss \"months\" after undergoing surgery \u2026"],["IND","Tyrese Haliburton","Out","Haliburton (hamstring) will miss at least the next two weeks of action, Shams Charania \u2026"],["IND","Ivica Zubac","Out","Zubac (ankle) is out for Wednesday's game against the 76ers."],["IND","Johnny Furphy","Out","Furphy was diagnosed with a torn right ACL on Monday and will miss the remainder of the\u2026"],["LAC","Yanic Konan Niederhauser","Out","Niederhauser (foot) remains out for Wednesday's game against the Lakers. He also won't \u2026"],["LAC","Max Strus","Out","Strus (foot) is making progress but is set to miss at least one more week, Ohm Youngmis\u2026"],["LAC","Brandon Ingram","Out","Ingram (Achilles) is making progress but is set to miss at least one more week, Ohm You\u2026"],["LAC","Rui Hachimura","Out","Hachimura (quadriceps) has been ruled out for Wednesday's game against the Lakers, Joey\u2026"],["LAC","Bradley Beal","Out","Beal (knee) will not be ready for the start of the regular season, NBA writer Justin Ru\u2026"],["LAC","Jordan Miller","Out","Miller underwent surgery Wednesday to repair a torn left rotator cuff and will be re-ev\u2026"],["LAL","Cameron Carr","Out","Carr (oblique) is out for Wednesday's game against the Clippers."],["LAL","Adou Thiero","Out","Thiero (knee) is out for Wednesday's game against the Clippers."],["LAL","Ziaire Williams","Out","Williams (foot) is out for Wednesday's game against the Clippers."],["LAL","Luka Doncic","Out","Doncic (back) is out for Wednesday's game against the Clippers."],["MIA","Simone Fontecchio","Out","Fontecchio (illness) is out for Wednesday's game against the Hawks."],["MIN","Anthony Edwards","Out","Edwards will undergo arthroscopic right knee surgery and is expected to miss up to two \u2026"],["MIN","Donte DiVincenzo","Out","DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jo\u2026"],["NO","Jordan Poole","Day-To-Day","Poole (ankle) won't return to Wednesday's game against the Nuggets. He finished with tw\u2026"],["NO","Yves Missi","Out","Missi has been diagnosed with a left knee bone bruise and he will miss an extended peri\u2026"],["NY","Jose Alvarado","Out","Alvarado (ankle) is out for Wednesday's game against the Bulls."],["OKC","Jalen Williams","Out","Williams (leg) underwent successful surgery Wednesday to \"address a fractured left fibu\u2026"],["OKC","Alex Caruso","Out","Caruso (ankle) is expected to miss time due to an ankle sprain, Clemente Almanza of USA\u2026"],["OKC","Thomas Sorber","Out","Sorber (knee) has been ruled out for Wednesday's game against the Mavericks."],["OKC","Chet Holmgren","Out","Holmgren (knee) has been ruled out for Wednesday's game against the Mavericks."],["OKC","Nikola Topic","Out","Topic (back) will remain on the inactive list for Wednesday's game in Dallas."],["OKC","Cason Wallace","Out","Wallace has been diagnosed with a torn labrum in his left shoulder and will require sur\u2026"],["OKC","Otega Oweh","Out","The Thunder plan to waive Oweh (Achilles) on Friday."],["ORL","Jonathan Isaac","Out","Isaac (knee) has been ruled out ahead of Wednesday's game against the Raptors."],["ORL","Jalen Suggs","Out","Suggs has been diagnosed with a mild bone bruise in his right knee and will be re-evalu\u2026"],["ORL","Paolo Banchero","Out","Banchero is expected to be sidelined for the next four-to-six weeks due to a right high\u2026"],["ORL","Noah Penda","Out","Penda was diagnosed with a partially torn right hamstring Saturday, Jason Beede of the \u2026"],["ORL","Izaiyah Nelson","Out","Team president Jeff Weltman said Monday that Nelson (ankle) remains about a month away \u2026"],["PHI","Tacko Fall","Out","Fall (quadriceps) is out for Wednesday's game in Indiana."],["PHI","Jabari Walker","Out","Walker (knee) has been ruled out for Wednesday's game against the Pacers."],["PHI","Dominick Barlow","Out","Barlow will miss at least the next two weeks of action due to a lumbar spine bone stres\u2026"],["PHI","Ariel Hukporti","Out","Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charan\u2026"],["SA","Tobias Harris","Out","Harris (calf) is out for Wednesday's game against Utah, Paul Garcia of ProjectSpurs.com\u2026"],["SA","Jayden Quaintance","Out","Quaintance has been around the team but has not yet been cleared for basketball activit\u2026"],["TOR","Nate Bittle","Out","Bittle (foot) has been ruled out for Wednesday's game against the Magic, Cody Taylor of\u2026"],["TOR","Kawhi Leonard","Out","Leonard (knee) is expected to miss multiple weeks due to swelling in his left knee, Sha\u2026"],["UTAH","Darryn Peterson","Day-To-Day","Peterson exited to the locker room in the first quarter of Wednesday's game against the\u2026"],["UTAH","Lauri Markkanen","Out","Markkanen (wrist) is out for Wednesday's tilt against the Spurs."],["UTAH","Jaren Jackson Jr.","Out","Jackson has been diagnosed with a torn MCL in his right knee and will be sidelined for \u2026"],["UTAH","Trey Alexander","Out","Alexander won't play Wednesday against the Grizzlies due to a left knee bone bruise."],["UTAH","Jusuf Nurkic","Out","Nurkic will miss at least the next four weeks due to a partial plantar plate tear of se\u2026"],["WSH","Tre Johnson","Out","Johnson has been ruled out for Wednesday's game against the Cavaliers due to right Achi\u2026"],["WSH","Justin Champagnie","Out","Champagnie (foot) is expected to miss several months, per Josh Robbins of The Athletic."],["WSH","Tristan Vukcevic","Out","The Wizards announced Thursday that Vukcevic (hip) will be re-evaluated in four weeks."],["WSH","Jamir Watkins","Out","The Wizards announced Thursday that Watkins has undergone surgery for a torn ACL."]],"source":"ESPN public injuries feed (tonight's teams)."},"Track Record":{"summary":{"season":2026,"w":0,"l":0,"p":0,"n":0,"pending":6,"hit":null},"h":["Date","Player","Stat","Line","Pick","App","Confirmed","Result"],"r":[["2026-10-22","Shai Gilgeous-Alexander","Points","UNCONFIRMED (play if <=30.5)","More","PrizePicks/Underdog","No","Pending"],["2026-10-22","Tyrese Maxey","Points+Assists","UNCONFIRMED (play if <=32.5)","More","PrizePicks/Underdog","No","Pending"],["2026-10-22","Joel Embiid","Rebounds","UNCONFIRMED (play if <=9.5)","More","PrizePicks/Underdog","No","Pending"],["2026-10-22","LeBron James","Rebounds+Assists","UNCONFIRMED (play if <=14.5)","More","PrizePicks/Underdog","No","Pending"],["2026-10-22","Jaylen Brown","Rebounds","UNCONFIRMED (play if <=6.5)","More","PrizePicks/Underdog","No","Pending"],["2026-10-22","Chet Holmgren","Blocks","UNCONFIRMED (play if <=2.5)","More","PrizePicks/Underdog","No","Pending"]],"note":"Logged Oct 22 slip used unconfirmed cutoffs (play-if). Results stay Pending until a confirmed app line is recorded and the game is graded."}}};
+const T=D.tabs,$=s=>document.querySelector(s);
+const e=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const P=v=>v==null?'—':(Math.round(v*1000)/10)+'%';
+$('#wk').textContent=D.days||D.date;
+$('#up').textContent='Updated '+D.updated;
+
+function tbl(h,rows){
+  if(!rows||!rows.length) return '<div class="mu">Nothing logged yet.</div>';
+  return '<div class="tw"><table><tr>'+h.map(x=>'<th>'+e(x)+'</th>').join('')+'</tr>'+
+    rows.map(r=>'<tr>'+r.slice(0,h.length).map(v=>'<td>'+e(v)+'</td>').join('')+'</tr>').join('')+'</table></div>';
+}
+function confPill(v){
+  const s=String(v||'').toLowerCase();
+  if(s==='yes'||s==='true') return '<span class="pill">Confirmed</span>';
+  if(s==='no'||s==='false') return '<span class="pill no">Unconfirmed</span>';
+  return '<span class="pill wait">'+e(v||'—')+'</span>';
+}
+function pickTable(rows){
+  const heads=['Date','Player','Stat','Cutoff','Side','App','Status','Result'];
+  return '<div class="tw"><table><tr>'+heads.map(x=>'<th>'+e(x)+'</th>').join('')+'</tr>'+
+    rows.map(r=>{
+      const res=r[7]||'Pending';
+      const cls=/^(W|HIT)/i.test(res)?'v':(res==='Pending'?'pending':'');
+      return '<tr class="'+cls+'"><td>'+e(r[0])+'</td><td><b>'+e(r[1])+'</b></td><td>'+e(r[2])+'</td><td>'+e(r[3])+
+        '</td><td>'+e(r[4])+'</td><td>'+e(r[5])+'</td><td>'+confPill(r[6])+'</td><td>'+e(res)+'</td></tr>';
+    }).join('')+'</table></div>';
+}
+
+const V={
+Games(){
+  const cards=T.Games.cards||[];
+  const live=cards.filter(g=>g.state==='in').length;
+  const done=cards.filter(g=>g.state==='post').length;
+  const pre=cards.filter(g=>g.state==='pre').length;
+  let html='<div class="info">'+cards.length+' games · <b>'+live+'</b> live · <b>'+done+'</b> final · <b>'+pre+'</b> upcoming</div>';
+  html+=cards.map(g=>{
+    const st=g.state==='in'?'LIVE':(g.state==='post'?'FINAL':'UPCOMING');
+    const stColor=g.state==='in'?'var(--ac)':(g.state==='post'?'var(--mu)':'var(--hm)');
+    return '<div class="card"><div class="row"><div class="mt">'+e(g.matchup)+'</div><div class="mu" style="color:'+stColor+';font-weight:700">'+st+
+      '</div></div><div class="mu">'+e(g.away_name)+' at '+e(g.home_name)+'</div><div class="kv"><div><span>Tip (CT)</span>'+e(g.tip)+
+      '</div><div><span>Status</span>'+e(g.clock)+'</div><div><span>Score</span>'+e(g.score||'—')+
+      '</div><div><span>Venue</span>'+e(g.venue)+'</div></div></div>';
+  }).join('');
+  return html;
+},
+"Pick'em"(){
+  const E=T["Pick'em"].entries||{};
+  let html='<div class="note">'+e(E.note||'Check Underdog and PrizePicks before locking anything.')+'</div>';
+  html+='<div class="card"><h3>Suggested slip shapes</h3><div class="kv"><div><span>2-pick</span>'+e(E['2-pick']||'—')+
+    '</div><div><span>3-pick</span>'+e(E['3-pick']||'—')+'</div></div>'+
+    '<div class="mu" style="margin-top:8px">Apps: Underdog · PrizePicks. Side = More / Less vs the app line.</div></div>';
+  const rows=T["Pick'em"].r||[];
+  if(!rows.length){
+    return html+'<div class="card"><h3>Tonight\'s picks</h3><div class="mu">No pick\'em slip logged yet for this slate.</div></div>';
+  }
+  html+='<div class="card"><h3>Logged cutoffs</h3><div class="mu" style="margin-bottom:8px">Play only if the live app line is at or below the cutoff. Unconfirmed = not verified in-app when logged.</div>'+
+    pickTable(rows)+'</div>';
+  return html;
+},
+'Player Props'(){
+  const ph=T['Player Props'].placeholder||'';
+  const rows=T['Player Props'].r||[];
+  let html='<div class="note">'+e(ph)+'</div>';
+  html+='<div class="card"><h3>How props land here</h3><div class="mu">1. Confirm the Underdog or PrizePicks line in-app.<br>2. Log player / stat / line / More or Less.<br>3. Site shows the board — never a made-up number.</div></div>';
+  if(rows.length) html+='<div class="card">'+tbl(T['Player Props'].h,rows)+'</div>';
+  else html+='<div class="card"><div class="mu">Board empty — waiting on confirmed app lines.</div><div class="f">'+
+    ['Points','Rebounds','Assists','Pts+Reb+Ast','3PM','Steals','Blocks','Combo props'].map(t=>'<span class="tag">'+t+'</span>').join('')+
+    '</div></div>';
+  return html;
+},
+Injuries(){
+  const R=T.Injuries, rows=R.r||[];
+  let html='<div class="info">'+e(R.source||'Injury report')+' · '+rows.length+' listed</div>';
+  const teams=[...new Set(rows.map(r=>r[0]))].sort();
+  html+='<div class="card"><input id="iq" placeholder="Search player or team…"><select id="it"><option value="">All teams</option>'+
+    teams.map(t=>'<option>'+e(t)+'</option>').join('')+'</select><div id="itbl"></div></div>';
+  setTimeout(()=>{
+    const go=()=>{
+      const q=$('#iq').value.toLowerCase(), t=$('#it').value;
+      const f=rows.filter(r=>(!t||r[0]===t)&&(!q||(r[0]+' '+r[1]+' '+r[2]+' '+r[3]).toLowerCase().includes(q)));
+      $('#itbl').innerHTML=tbl(['Team','Player','Status','Note'],f);
+    };
+    $('#iq').oninput=go; $('#it').onchange=go; go();
+  });
+  return html;
+},
+'Track Record'(){
+  const R=T['Track Record'], s=R.summary||{};
+  let html='<div class="card"><h3>'+(s.season||2026)+' Pick\'em record</h3><div class="kv">'+
+    '<div><span>Graded</span>'+(s.w||0)+'-'+(s.l||0)+(s.p?('-'+s.p):'')+'</div>'+
+    '<div><span>Hit rate</span>'+P(s.hit)+'</div>'+
+    '<div><span>Picks graded</span>'+(s.n||0)+'</div>'+
+    '<div><span>Pending</span>'+(s.pending||0)+'</div></div>'+
+    '<div class="mu" style="margin-top:8px">'+e(R.note||'')+'</div></div>';
+  const rows=R.r||[];
+  html+='<div class="card"><h3>All logged picks</h3>'+(rows.length?pickTable(rows):
+    '<div class="mu">No slips yet. Results post after games are final and confirmed lines are graded.</div>')+'</div>';
+  html+='<div class="card"><h3>Apps tracked</h3><div class="mu"><b>Underdog</b> · <b>PrizePicks</b> — More/Less vs app line. Break-even depends on slip size.</div></div>';
+  return html;
+}
+};
+
+const names=Object.keys(V);
+function show(n){
+  document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.textContent===n));
+  $('#m').innerHTML=V[n]();
+  scrollTo(0,0);
+}
+$('#nav').innerHTML=names.map(n=>'<button type="button">'+n+'</button>').join('');
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>show(b.textContent));
+show('Games');
+</script></body></html>
