@@ -2,7 +2,7 @@
   "title": "NBA Pick'em",
   "date": "2026-10-28",
   "days": "Wednesday Oct 28",
-  "updated": "Oct 28, 2026 8:44 PM CT",
+  "updated": "Oct 28, 2026 8:53 PM CT",
   "note": "Underdog & PrizePicks only. Never invent lines \u2014 only play if the app line is at or below the cutoff. Grades post after games finalize.",
   "tabs": {
     "Games": {
@@ -11,6 +11,9 @@
         "Tip CT",
         "Status",
         "Score",
+        "Win% Away",
+        "Win% Home",
+        "Projected",
         "Venue"
       ],
       "r": [
@@ -19,6 +22,9 @@
           "6:00 PM CT",
           "Final",
           "MIA 129\u2013117 ATL",
+          0.4106,
+          0.5894,
+          "MIA 118\u2013122 ATL",
           "State Farm Arena"
         ],
         [
@@ -26,6 +32,9 @@
           "6:00 PM CT",
           "Final",
           "WSH 111\u2013121 CLE",
+          0.1287,
+          0.8713,
+          "WSH 109\u2013128 CLE",
           "Rocket Arena"
         ],
         [
@@ -33,62 +42,89 @@
           "6:00 PM CT",
           "Final",
           "CHA 89\u201397 DET",
+          0.326,
+          0.674,
+          "CHA 99\u2013107 DET",
           "Little Caesars Arena"
         ],
         [
           "PHI @ IND",
           "6:00 PM CT",
-          "3:41 - 4th Quarter",
-          "PHI 101\u201398 IND",
+          "19.6 - 4th Quarter",
+          "PHI 112\u2013107 IND",
+          0.617,
+          0.383,
+          "PHI 116\u2013111 IND",
           "Gainbridge Fieldhouse"
         ],
         [
           "ORL @ TOR",
           "6:30 PM CT",
-          "8:49 - 4th Quarter",
-          "ORL 85\u2013107 TOR",
+          "4:33 - 4th Quarter",
+          "ORL 91\u2013120 TOR",
+          0.3109,
+          0.6891,
+          "ORL 107\u2013115 TOR",
           "Scotiabank Arena"
         ],
         [
           "NY @ CHI",
           "7:00 PM CT",
-          "7:03 - 3rd Quarter",
-          "NY 68\u201381 CHI",
+          "2:48 - 3rd Quarter",
+          "NY 77\u201389 CHI",
+          0.7436,
+          0.2564,
+          "NY 119\u2013109 CHI",
           "United Center"
         ],
         [
           "HOU @ MIL",
           "7:00 PM CT",
-          "5:42 - 3rd Quarter",
-          "HOU 73\u201358 MIL",
+          "1:25 - 3rd Quarter",
+          "HOU 93\u201367 MIL",
+          0.3726,
+          0.6274,
+          "HOU 108\u2013113 MIL",
           "Fiserv Forum"
         ],
         [
           "GS @ MIN",
           "7:00 PM CT",
-          "8:01 - 3rd Quarter",
-          "GS 73\u201350 MIN",
+          "3:38 - 3rd Quarter",
+          "GS 82\u201366 MIN",
+          0.3298,
+          0.6702,
+          "GS 106\u2013113 MIN",
           "Target Center"
         ],
         [
           "DEN @ NO",
           "7:00 PM CT",
-          "4:08 - 3rd Quarter",
-          "DEN 75\u201362 NO",
+          "End of 3rd Quarter",
+          "DEN 79\u201373 NO",
+          0.4074,
+          0.5926,
+          "DEN 115\u2013119 NO",
           "Smoothie King Center"
         ],
         [
           "SA @ UTAH",
           "8:00 PM CT",
-          "End of 1st Quarter",
-          "SA 22\u201332 UTAH",
+          "7:02 - 2nd Quarter",
+          "SA 35\u201341 UTAH",
+          0.7327,
+          0.2673,
+          "SA 118\u2013108 UTAH",
           "Delta Center"
         ],
         [
           "OKC @ DAL",
           "8:30 PM CT",
-          "8:30 PM CT",
-          "\u2014",
+          "8:44 - 1st Quarter",
+          "OKC 7\u20135 DAL",
+          0.6249,
+          0.3751,
+          "OKC 109\u2013104 DAL",
           "American Airlines Center"
         ],
         [
@@ -96,6 +132,9 @@
           "9:30 PM CT",
           "9:30 PM CT",
           "\u2014",
+          0.4656,
+          0.5344,
+          "LAL 110\u2013111 LAC",
           "Intuit Dome"
         ]
       ],
@@ -110,7 +149,18 @@
           "state": "post",
           "clock": "Final",
           "score": "MIA 129\u2013117 ATL",
-          "venue": "State Farm Arena"
+          "venue": "State Farm Arena",
+          "away_win_pct": 0.4106,
+          "home_win_pct": 0.5894,
+          "proj_score": "MIA 118\u2013122 ATL",
+          "away_proj": 118.2,
+          "home_proj": 121.5,
+          "total_proj": 239.7,
+          "spread_home": 3.3,
+          "sp_lean": "Slight lean",
+          "sp_pick": "ATL",
+          "inj_note": "ATL \u22122.4 PPG (Mouhamed Gueye (Out))",
+          "sims": 10000
         },
         {
           "matchup": "WSH @ CLE",
@@ -122,7 +172,18 @@
           "state": "post",
           "clock": "Final",
           "score": "WSH 111\u2013121 CLE",
-          "venue": "Rocket Arena"
+          "venue": "Rocket Arena",
+          "away_win_pct": 0.1287,
+          "home_win_pct": 0.8713,
+          "proj_score": "WSH 109\u2013128 CLE",
+          "away_proj": 109.1,
+          "home_proj": 127.5,
+          "total_proj": 236.7,
+          "spread_home": 18.4,
+          "sp_lean": "Lean",
+          "sp_pick": "CLE",
+          "inj_note": "WSH \u221214.0 PPG (Tre Johnson (Out), Justin Champagnie (Out), Tristan Vukcevic (Out), Jamir Watkins (Out))",
+          "sims": 10000
         },
         {
           "matchup": "CHA @ DET",
@@ -134,7 +195,18 @@
           "state": "post",
           "clock": "Final",
           "score": "CHA 89\u201397 DET",
-          "venue": "Little Caesars Arena"
+          "venue": "Little Caesars Arena",
+          "away_win_pct": 0.326,
+          "home_win_pct": 0.674,
+          "proj_score": "CHA 99\u2013107 DET",
+          "away_proj": 99.1,
+          "home_proj": 106.7,
+          "total_proj": 205.7,
+          "spread_home": 7.6,
+          "sp_lean": "Lean",
+          "sp_pick": "DET",
+          "inj_note": "CHA \u221214.0 PPG (Coby White (Out), Kon Knueppel (Out), Grant Williams (Out)); DET \u221211.2 PPG (Isaiah Joe (Out), Jalen Duren (Out))",
+          "sims": 10000
         },
         {
           "matchup": "PHI @ IND",
@@ -144,9 +216,20 @@
           "home_name": "Indiana Pacers",
           "tip": "6:00 PM CT",
           "state": "in",
-          "clock": "3:41 - 4th Quarter",
-          "score": "PHI 101\u201398 IND",
-          "venue": "Gainbridge Fieldhouse"
+          "clock": "19.6 - 4th Quarter",
+          "score": "PHI 112\u2013107 IND",
+          "venue": "Gainbridge Fieldhouse",
+          "away_win_pct": 0.617,
+          "home_win_pct": 0.383,
+          "proj_score": "PHI 116\u2013111 IND",
+          "away_proj": 116.1,
+          "home_proj": 111.3,
+          "total_proj": 227.4,
+          "spread_home": -4.8,
+          "sp_lean": "Lean",
+          "sp_pick": "PHI",
+          "inj_note": "PHI \u22127.5 PPG (Dominick Barlow (Out)); IND \u221214.0 PPG (T.J. McConnell (Out), Ben Sheppard (Out), Tyrese Haliburton (Out), Ivica Zubac (Out))",
+          "sims": 10000
         },
         {
           "matchup": "ORL @ TOR",
@@ -156,9 +239,20 @@
           "home_name": "Toronto Raptors",
           "tip": "6:30 PM CT",
           "state": "in",
-          "clock": "8:49 - 4th Quarter",
-          "score": "ORL 85\u2013107 TOR",
-          "venue": "Scotiabank Arena"
+          "clock": "4:33 - 4th Quarter",
+          "score": "ORL 91\u2013120 TOR",
+          "venue": "Scotiabank Arena",
+          "away_win_pct": 0.3109,
+          "home_win_pct": 0.6891,
+          "proj_score": "ORL 107\u2013115 TOR",
+          "away_proj": 107.5,
+          "home_proj": 115.4,
+          "total_proj": 222.8,
+          "spread_home": 7.9,
+          "sp_lean": "Lean",
+          "sp_pick": "TOR",
+          "inj_note": "ORL \u221214.0 PPG (Jalen Suggs (Out), Paolo Banchero (Out), Noah Penda (Out)); TOR \u221210.7 PPG (Kawhi Leonard (Out))",
+          "sims": 10000
         },
         {
           "matchup": "NY @ CHI",
@@ -168,9 +262,20 @@
           "home_name": "Chicago Bulls",
           "tip": "7:00 PM CT",
           "state": "in",
-          "clock": "7:03 - 3rd Quarter",
-          "score": "NY 68\u201381 CHI",
-          "venue": "United Center"
+          "clock": "2:48 - 3rd Quarter",
+          "score": "NY 77\u201389 CHI",
+          "venue": "United Center",
+          "away_win_pct": 0.7436,
+          "home_win_pct": 0.2564,
+          "proj_score": "NY 119\u2013109 CHI",
+          "away_proj": 119.1,
+          "home_proj": 108.6,
+          "total_proj": 227.7,
+          "spread_home": -10.5,
+          "sp_lean": "Lean",
+          "sp_pick": "NY",
+          "inj_note": "NY \u22122.8 PPG (Jose Alvarado (Out)); CHI \u221211.9 PPG (Tobe Awaka (Out), Patrick Williams (Out), Nic Claxton (Out))",
+          "sims": 10000
         },
         {
           "matchup": "HOU @ MIL",
@@ -180,9 +285,20 @@
           "home_name": "Milwaukee Bucks",
           "tip": "7:00 PM CT",
           "state": "in",
-          "clock": "5:42 - 3rd Quarter",
-          "score": "HOU 73\u201358 MIL",
-          "venue": "Fiserv Forum"
+          "clock": "1:25 - 3rd Quarter",
+          "score": "HOU 93\u201367 MIL",
+          "venue": "Fiserv Forum",
+          "away_win_pct": 0.3726,
+          "home_win_pct": 0.6274,
+          "proj_score": "HOU 108\u2013113 MIL",
+          "away_proj": 108.0,
+          "home_proj": 113.5,
+          "total_proj": 221.5,
+          "spread_home": 5.5,
+          "sp_lean": "Lean",
+          "sp_pick": "MIL",
+          "inj_note": "HOU \u221214.0 PPG (Marcus Smart (Out), Alperen Sengun (Out), Steven Adams (Out))",
+          "sims": 10000
         },
         {
           "matchup": "GS @ MIN",
@@ -192,9 +308,20 @@
           "home_name": "Minnesota Timberwolves",
           "tip": "7:00 PM CT",
           "state": "in",
-          "clock": "8:01 - 3rd Quarter",
-          "score": "GS 73\u201350 MIN",
-          "venue": "Target Center"
+          "clock": "3:38 - 3rd Quarter",
+          "score": "GS 82\u201366 MIN",
+          "venue": "Target Center",
+          "away_win_pct": 0.3298,
+          "home_win_pct": 0.6702,
+          "proj_score": "GS 106\u2013113 MIN",
+          "away_proj": 106.1,
+          "home_proj": 113.4,
+          "total_proj": 219.6,
+          "spread_home": 7.3,
+          "sp_lean": "Lean",
+          "sp_pick": "MIN",
+          "inj_note": "GS \u221214.0 PPG (Gui Santos (Out), Kristaps Porzingis (Out), Moses Moody (Out), Jimmy Butler III (Out)); MIN \u221214.0 PPG (Anthony Edwards (Out), Donte DiVincenzo (Out))",
+          "sims": 10000
         },
         {
           "matchup": "DEN @ NO",
@@ -204,9 +331,20 @@
           "home_name": "New Orleans Pelicans",
           "tip": "7:00 PM CT",
           "state": "in",
-          "clock": "4:08 - 3rd Quarter",
-          "score": "DEN 75\u201362 NO",
-          "venue": "Smoothie King Center"
+          "clock": "End of 3rd Quarter",
+          "score": "DEN 79\u201373 NO",
+          "venue": "Smoothie King Center",
+          "away_win_pct": 0.4074,
+          "home_win_pct": 0.5926,
+          "proj_score": "DEN 115\u2013119 NO",
+          "away_proj": 115.4,
+          "home_proj": 119.1,
+          "total_proj": 234.5,
+          "spread_home": 3.7,
+          "sp_lean": "Slight lean",
+          "sp_pick": "NO",
+          "inj_note": "DEN \u221211.9 PPG (Cameron Johnson (Out), Spencer Jones (Out), Alpha Diallo (Out), Julian Strawther (Out)); NO \u22126.2 PPG (Yves Missi (Out))",
+          "sims": 10000
         },
         {
           "matchup": "SA @ UTAH",
@@ -216,9 +354,20 @@
           "home_name": "Utah Jazz",
           "tip": "8:00 PM CT",
           "state": "in",
-          "clock": "End of 1st Quarter",
-          "score": "SA 22\u201332 UTAH",
-          "venue": "Delta Center"
+          "clock": "7:02 - 2nd Quarter",
+          "score": "SA 35\u201341 UTAH",
+          "venue": "Delta Center",
+          "away_win_pct": 0.7327,
+          "home_win_pct": 0.2673,
+          "proj_score": "SA 118\u2013108 UTAH",
+          "away_proj": 118.4,
+          "home_proj": 108.3,
+          "total_proj": 226.7,
+          "spread_home": -10.0,
+          "sp_lean": "Lean",
+          "sp_pick": "SA",
+          "inj_note": "SA \u22127.3 PPG (Tobias Harris (Out)); UTAH \u221214.0 PPG (Lauri Markkanen (Out), Jaren Jackson Jr. (Out), Trey Alexander (Out), Jusuf Nurkic (Out))",
+          "sims": 10000
         },
         {
           "matchup": "OKC @ DAL",
@@ -227,10 +376,21 @@
           "away_name": "Oklahoma City Thunder",
           "home_name": "Dallas Mavericks",
           "tip": "8:30 PM CT",
-          "state": "pre",
-          "clock": "8:30 PM CT",
-          "score": null,
-          "venue": "American Airlines Center"
+          "state": "in",
+          "clock": "8:44 - 1st Quarter",
+          "score": "OKC 7\u20135 DAL",
+          "venue": "American Airlines Center",
+          "away_win_pct": 0.6249,
+          "home_win_pct": 0.3751,
+          "proj_score": "OKC 109\u2013104 DAL",
+          "away_proj": 109.3,
+          "home_proj": 103.9,
+          "total_proj": 213.2,
+          "spread_home": -5.3,
+          "sp_lean": "Lean",
+          "sp_pick": "OKC",
+          "inj_note": "OKC \u221214.0 PPG (Jalen Williams (Out), Alex Caruso (Out), Chet Holmgren (Out), Nikola Topic (Out)); DAL \u221214.0 PPG (Naji Marshall (Out), Santi Aldama (Out), Sergio de Larrea (Out), Dereck Lively II (Out))",
+          "sims": 10000
         },
         {
           "matchup": "LAL @ LAC",
@@ -240,11 +400,23 @@
           "home_name": "LA Clippers",
           "tip": "9:30 PM CT",
           "state": "pre",
-          "clock": "9:30 PM CT",
+          "clock": "Wed, October 28th at 10:30 PM EDT",
           "score": null,
-          "venue": "Intuit Dome"
+          "venue": "Intuit Dome",
+          "away_win_pct": 0.4656,
+          "home_win_pct": 0.5344,
+          "proj_score": "LAL 110\u2013111 LAC",
+          "away_proj": 109.9,
+          "home_proj": 111.1,
+          "total_proj": 221.0,
+          "spread_home": 1.2,
+          "sp_lean": "Coin flip",
+          "sp_pick": "No lean",
+          "inj_note": "LAL \u221214.0 PPG (Ziaire Williams (Out), Luka Doncic (Out)); LAC \u221214.0 PPG (Yanic Konan Niederhauser (Out), Max Strus (Out), Brandon Ingram (Out), Rui Hachimura (Out))",
+          "sims": 10000
         }
-      ]
+      ],
+      "sim_note": "10,000 Monte Carlo sims/game \u00b7 ESPN PPG/OPP blended with prior (w=8) \u00b7 HFA 2.5 pts \u00b7 \u03c3 11.5 \u00b7 injury offense hits when player PPG available. ML win% for board context only (Underdog/PrizePicks pick'em \u2014 not sportsbook tickets)."
     },
     "Pick'em": {
       "h": [
@@ -1134,5 +1306,20 @@
       ],
       "note": "Oct 28 Mavs/Clippers slip + Oct 22 slip use unconfirmed cutoffs (play-if). Results stay Pending until a confirmed app line is recorded and the game is graded."
     }
+  },
+  "sim": {
+    "sims": 10000,
+    "method": "Additive ESPN PPG/OPP blend (current + prior pseudo-games), injury offense hits (retain 0.45, cap 14.0), home +2.5/2 each side, Normal scores \u03c3=11.5 with shared pace shock, OT resolves ties. 10000 sims/game.",
+    "sources": [
+      "ESPN standings season 2027",
+      "ESPN standings season 2026",
+      "ESPN scoreboard",
+      "ESPN team statistics (pace)",
+      "ESPN injuries + athlete pages (PPG when available)"
+    ],
+    "hfa": 2.5,
+    "sigma": 11.5,
+    "prior_w": 8.0,
+    "generated": "Oct 28, 2026 8:53 PM CT"
   }
 }
