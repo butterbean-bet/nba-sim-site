@@ -2,7 +2,7 @@
   "title": "NBA Pick'em",
   "date": "2026-10-28",
   "days": "Wednesday Oct 28",
-  "updated": "Oct 28, 2026 8:39 PM CT",
+  "updated": "Oct 28, 2026 8:44 PM CT",
   "note": "Underdog & PrizePicks only. Never invent lines \u2014 only play if the app line is at or below the cutoff. Grades post after games finalize.",
   "tabs": {
     "Games": {
@@ -259,6 +259,86 @@
       ],
       "r": [
         [
+          "2026-10-28",
+          "Austin Reaves",
+          "Points",
+          "UNCONFIRMED (play if <=28.5)",
+          "More",
+          "PrizePicks/Underdog",
+          "No",
+          "Pending"
+        ],
+        [
+          "2026-10-28",
+          "Austin Reaves",
+          "Assists",
+          "UNCONFIRMED (play if <=7.5)",
+          "More",
+          "PrizePicks/Underdog",
+          "No",
+          "Pending"
+        ],
+        [
+          "2026-10-28",
+          "Brook Lopez",
+          "Points",
+          "UNCONFIRMED (play if <=10.5)",
+          "More",
+          "PrizePicks/Underdog",
+          "No",
+          "Pending"
+        ],
+        [
+          "2026-10-28",
+          "Kris Dunn",
+          "Assists",
+          "UNCONFIRMED (play if <=4.5)",
+          "More",
+          "PrizePicks/Underdog",
+          "No",
+          "Pending"
+        ],
+        [
+          "2026-10-28",
+          "Cooper Flagg",
+          "Fantasy",
+          "UNCONFIRMED (play if <=45.5)",
+          "More",
+          "PrizePicks/Underdog",
+          "No",
+          "Pending"
+        ],
+        [
+          "2026-10-28",
+          "Ajay Mitchell",
+          "Points",
+          "UNCONFIRMED (play if <=18.5)",
+          "More",
+          "PrizePicks/Underdog",
+          "No",
+          "Pending"
+        ],
+        [
+          "2026-10-28",
+          "Darius Garland",
+          "Points",
+          "UNCONFIRMED (play if <=23.5)",
+          "More",
+          "PrizePicks/Underdog",
+          "No",
+          "Pending"
+        ],
+        [
+          "2026-10-28",
+          "Shai Gilgeous-Alexander",
+          "Assists",
+          "UNCONFIRMED (play if <=6)",
+          "More",
+          "PrizePicks/Underdog",
+          "No",
+          "Pending"
+        ],
+        [
           "2026-10-22",
           "Shai Gilgeous-Alexander",
           "Points",
@@ -320,9 +400,9 @@
         ]
       ],
       "entries": {
-        "2-pick": "Prefer a confirmed More on a star scorer + a combo (pts+ast or reb+ast) when both app lines clear the cutoff.",
-        "3-pick": "Add a rebound or blocks lean only when the line is soft and the matchup is clear.",
-        "note": "No fresh confirmed Underdog/PrizePicks lines loaded for tonight yet. Open the apps and only play if the posted line is at or below a cutoff you trust."
+        "2-pick": "Austin Reaves Points MORE + Brook Lopez Points MORE (verify both app lines \u2264 cutoffs).",
+        "3-pick": "Reaves Points + Lopez Points + Cooper Flagg Fantasy MORE (or Flagg Points if app \u226423.5).",
+        "note": "Mavs/Clippers slate (OKC @ DAL 8:30 CT, LAL @ LAC 9:30 CT). All cutoffs UNCONFIRMED \u2014 only play if the live app line is at or below the number shown. Luka OUT; OKC missing JDub/Chet/Caruso/Wallace; LAC missing Beal/Ingram/Strus/Hachimura; Kyrie available \u2014 watch minutes."
       }
     },
     "Player Props": {
@@ -335,8 +415,81 @@
         "Side",
         "Notes"
       ],
-      "r": [],
-      "placeholder": "Player prop board fills when confirmed Underdog / PrizePicks lines are logged. Free sources only \u2014 Odds API credits are not used."
+      "r": [
+        [
+          "Austin Reaves",
+          "LAL",
+          "LAL @ LAC",
+          "Points",
+          "28.5",
+          "More",
+          "Luka OUT \u2014 verify in-app; skip if higher"
+        ],
+        [
+          "Austin Reaves",
+          "LAL",
+          "LAL @ LAC",
+          "Assists",
+          "7.5",
+          "More",
+          "Primary creator with Luka out"
+        ],
+        [
+          "Brook Lopez",
+          "LAC",
+          "LAL @ LAC",
+          "Points",
+          "10.5",
+          "More",
+          "Softest line; Beal/Ingram/Strus/Hachimura OUT"
+        ],
+        [
+          "Kris Dunn",
+          "LAC",
+          "LAL @ LAC",
+          "Assists",
+          "4.5",
+          "More",
+          "Elevated usage with wings out"
+        ],
+        [
+          "Cooper Flagg",
+          "DAL",
+          "OKC @ DAL",
+          "Fantasy",
+          "45.5",
+          "More",
+          "OKC D gutted; alt Points if app \u226423.5"
+        ],
+        [
+          "Ajay Mitchell",
+          "OKC",
+          "OKC @ DAL",
+          "Points",
+          "\u226418.5",
+          "More",
+          "UNCONFIRMED \u2014 JDub/Chet/Caruso/Wallace OUT"
+        ],
+        [
+          "Darius Garland",
+          "LAC",
+          "LAL @ LAC",
+          "Points",
+          "\u226423.5",
+          "More",
+          "Play if app \u226423.5; huge usage"
+        ],
+        [
+          "Shai Gilgeous-Alexander",
+          "OKC",
+          "OKC @ DAL",
+          "Assists",
+          "\u22646",
+          "More",
+          "Play if app \u22646; clear creator"
+        ]
+      ],
+      "placeholder": "Tonight's Mavs/Clippers board (Oct 28). Cutoffs from board mirrors / play-if thresholds \u2014 VERIFY in Underdog or PrizePicks before locking. Skip if the app line is higher."
     },
     "Injuries": {
       "h": [
@@ -807,9 +960,15 @@
           "Jamir Watkins",
           "Out",
           "The Wizards announced Thursday that Watkins has undergone surgery for a torn ACL."
+        ],
+        [
+          "DAL",
+          "Kyrie Irving",
+          "Available",
+          "Available vs OKC \u2014 watch minutes before locking any Kyrie props."
         ]
       ],
-      "source": "ESPN public injuries feed (tonight's teams)."
+      "source": "ESPN public injuries feed + tonight's Mavs/Clippers slate notes (Luka OUT; OKC JDub/Chet/Caruso/Wallace OUT; LAC Beal/Ingram/Strus/Hachimura OUT)."
     },
     "Track Record": {
       "summary": {
@@ -818,7 +977,7 @@
         "l": 0,
         "p": 0,
         "n": 0,
-        "pending": 6,
+        "pending": 14,
         "hit": null
       },
       "h": [
@@ -832,6 +991,86 @@
         "Result"
       ],
       "r": [
+        [
+          "2026-10-28",
+          "Austin Reaves",
+          "Points",
+          "UNCONFIRMED (play if <=28.5)",
+          "More",
+          "PrizePicks/Underdog",
+          "No",
+          "Pending"
+        ],
+        [
+          "2026-10-28",
+          "Austin Reaves",
+          "Assists",
+          "UNCONFIRMED (play if <=7.5)",
+          "More",
+          "PrizePicks/Underdog",
+          "No",
+          "Pending"
+        ],
+        [
+          "2026-10-28",
+          "Brook Lopez",
+          "Points",
+          "UNCONFIRMED (play if <=10.5)",
+          "More",
+          "PrizePicks/Underdog",
+          "No",
+          "Pending"
+        ],
+        [
+          "2026-10-28",
+          "Kris Dunn",
+          "Assists",
+          "UNCONFIRMED (play if <=4.5)",
+          "More",
+          "PrizePicks/Underdog",
+          "No",
+          "Pending"
+        ],
+        [
+          "2026-10-28",
+          "Cooper Flagg",
+          "Fantasy",
+          "UNCONFIRMED (play if <=45.5)",
+          "More",
+          "PrizePicks/Underdog",
+          "No",
+          "Pending"
+        ],
+        [
+          "2026-10-28",
+          "Ajay Mitchell",
+          "Points",
+          "UNCONFIRMED (play if <=18.5)",
+          "More",
+          "PrizePicks/Underdog",
+          "No",
+          "Pending"
+        ],
+        [
+          "2026-10-28",
+          "Darius Garland",
+          "Points",
+          "UNCONFIRMED (play if <=23.5)",
+          "More",
+          "PrizePicks/Underdog",
+          "No",
+          "Pending"
+        ],
+        [
+          "2026-10-28",
+          "Shai Gilgeous-Alexander",
+          "Assists",
+          "UNCONFIRMED (play if <=6)",
+          "More",
+          "PrizePicks/Underdog",
+          "No",
+          "Pending"
+        ],
         [
           "2026-10-22",
           "Shai Gilgeous-Alexander",
@@ -893,7 +1132,7 @@
           "Pending"
         ]
       ],
-      "note": "Logged Oct 22 slip used unconfirmed cutoffs (play-if). Results stay Pending until a confirmed app line is recorded and the game is graded."
+      "note": "Oct 28 Mavs/Clippers slip + Oct 22 slip use unconfirmed cutoffs (play-if). Results stay Pending until a confirmed app line is recorded and the game is graded."
     }
   }
 }
