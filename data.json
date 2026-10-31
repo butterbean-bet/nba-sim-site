@@ -2,7 +2,7 @@
   "title": "NBA Pick'em",
   "date": "2026-10-30",
   "days": "Thursday Oct 29",
-  "updated": "Oct 30, 2026 12:03 PM CT",
+  "updated": "Oct 30, 2026 7:40 PM CT",
   "note": "Underdog & PrizePicks only. Never invent lines \u2014 only play if the app line is at or below the cutoff. Grades post after games finalize.",
   "tabs": {
     "Games": {
@@ -20,48 +20,48 @@
         [
           "CHA @ WSH",
           "6:00 PM CT",
-          "6:00 PM CT",
-          "\u2014",
-          0.5335,
-          0.4665,
+          "6:27 - 3rd Quarter",
+          "CHA 51\u201364 WSH",
+          0.5178,
+          0.4822,
           "CHA 107\u2013106 WSH",
           "Capital One Arena"
         ],
         [
           "CHI @ BOS",
           "6:30 PM CT",
-          "6:30 PM CT",
-          "\u2014",
-          0.1897,
-          0.8103,
-          "CHI 111\u2013125 BOS",
+          "2:07 - 2nd Quarter",
+          "CHI 44\u201373 BOS",
+          0.2023,
+          0.7977,
+          "CHI 112\u2013125 BOS",
           "TD Garden"
         ],
         [
           "DET @ BKN",
           "6:30 PM CT",
-          "6:30 PM CT",
-          "\u2014",
-          0.6058,
-          0.3942,
-          "DET 112\u2013108 BKN",
+          "2:22 - 2nd Quarter",
+          "DET 49\u201345 BKN",
+          0.5443,
+          0.4557,
+          "DET 110\u2013108 BKN",
           "Barclays Center"
         ],
         [
           "NY @ PHI",
           "6:30 PM CT",
-          "6:30 PM CT",
-          "\u2014",
-          0.6003,
-          0.3997,
-          "NY 114\u2013110 PHI",
+          "1:05 - 2nd Quarter",
+          "NY 41\u201350 PHI",
+          0.6569,
+          0.3431,
+          "NY 115\u2013108 PHI",
           "Xfinity Mobile Arena"
         ],
         [
           "ORL @ TOR",
           "6:30 PM CT",
-          "6:30 PM CT",
-          "\u2014",
+          "4:26 - 2nd Quarter",
+          "ORL 52\u201345 TOR",
           0.2634,
           0.7366,
           "ORL 107\u2013117 TOR",
@@ -70,8 +70,8 @@
         [
           "IND @ MIA",
           "7:00 PM CT",
-          "7:00 PM CT",
-          "\u2014",
+          "30.3 - 1st Quarter",
+          "IND 41\u201334 MIA",
           0.194,
           0.806,
           "IND 110\u2013124 MIA",
@@ -80,18 +80,18 @@
         [
           "HOU @ DAL",
           "7:00 PM CT",
-          "7:00 PM CT",
-          "\u2014",
-          0.5734,
-          0.4266,
+          "End of 1st Quarter",
+          "HOU 20\u201327 DAL",
+          0.5582,
+          0.4418,
           "HOU 109\u2013106 DAL",
           "American Airlines Center"
         ],
         [
           "LAC @ MIN",
           "7:00 PM CT",
-          "7:00 PM CT",
-          "\u2014",
+          "11:57 - 2nd Quarter",
+          "LAC 24\u201334 MIN",
           0.3572,
           0.6428,
           "LAC 107\u2013113 MIN",
@@ -102,9 +102,9 @@
           "9:00 PM CT",
           "9:00 PM CT",
           "\u2014",
-          0.6875,
-          0.3125,
-          "LAL 116\u2013108 GS",
+          0.6173,
+          0.3827,
+          "LAL 113\u2013109 GS",
           "Chase Center"
         ],
         [
@@ -126,20 +126,20 @@
           "away_name": "Charlotte Hornets",
           "home_name": "Washington Wizards",
           "tip": "6:00 PM CT",
-          "state": "pre",
-          "clock": "Fri, October 30th at 7:00 PM EDT",
-          "score": null,
+          "state": "in",
+          "clock": "6:27 - 3rd Quarter",
+          "score": "CHA 51\u201364 WSH",
           "venue": "Capital One Arena",
-          "away_win_pct": 0.5335,
-          "home_win_pct": 0.4665,
+          "away_win_pct": 0.5178,
+          "home_win_pct": 0.4822,
           "proj_score": "CHA 107\u2013106 WSH",
-          "away_proj": 107.5,
-          "home_proj": 105.8,
-          "total_proj": 213.2,
-          "spread_home": -1.7,
-          "sp_lean": "Slight lean",
-          "sp_pick": "CHA",
-          "inj_note": "CHA \u221214.0 PPG (Dennis Schroder (Day-To-Day), Kon Knueppel (Out), Coby White (Out), Grant Williams (Out)); WSH \u221214.0 PPG (Tre Johnson (Day-To-Day), Justin Champagnie (Out), Tristan Vukcevic (Out), Jamir Watkins (Out))",
+          "away_proj": 107.3,
+          "home_proj": 106.2,
+          "total_proj": 213.6,
+          "spread_home": -1.1,
+          "sp_lean": "Coin flip",
+          "sp_pick": "No lean",
+          "inj_note": "CHA \u221214.0 PPG (Kon Knueppel (Out), Coby White (Out), Grant Williams (Out)); WSH \u221213.0 PPG (Justin Champagnie (Out), Tristan Vukcevic (Out), Jamir Watkins (Out))",
           "sims": 10000
         },
         {
@@ -149,20 +149,20 @@
           "away_name": "Chicago Bulls",
           "home_name": "Boston Celtics",
           "tip": "6:30 PM CT",
-          "state": "pre",
-          "clock": "Fri, October 30th at 7:30 PM EDT",
-          "score": null,
+          "state": "in",
+          "clock": "2:07 - 2nd Quarter",
+          "score": "CHI 44\u201373 BOS",
           "venue": "TD Garden",
-          "away_win_pct": 0.1897,
-          "home_win_pct": 0.8103,
-          "proj_score": "CHI 111\u2013125 BOS",
-          "away_proj": 110.9,
-          "home_proj": 125.2,
-          "total_proj": 236.1,
-          "spread_home": 14.3,
+          "away_win_pct": 0.2023,
+          "home_win_pct": 0.7977,
+          "proj_score": "CHI 112\u2013125 BOS",
+          "away_proj": 111.5,
+          "home_proj": 125.0,
+          "total_proj": 236.5,
+          "spread_home": 13.5,
           "sp_lean": "Lean",
           "sp_pick": "BOS",
-          "inj_note": "CHI \u22128.7 PPG (Jalen Smith (Day-To-Day), Nic Claxton (Out)); BOS \u22124.9 PPG (Devin Carter (Out))",
+          "inj_note": "CHI \u22127.5 PPG (Nic Claxton (Out)); BOS \u22124.9 PPG (Devin Carter (Out))",
           "sims": 10000
         },
         {
@@ -172,20 +172,20 @@
           "away_name": "Detroit Pistons",
           "home_name": "Brooklyn Nets",
           "tip": "6:30 PM CT",
-          "state": "pre",
-          "clock": "Fri, October 30th at 7:30 PM EDT",
-          "score": null,
+          "state": "in",
+          "clock": "2:22 - 2nd Quarter",
+          "score": "DET 49\u201345 BKN",
           "venue": "Barclays Center",
-          "away_win_pct": 0.6058,
-          "home_win_pct": 0.3942,
-          "proj_score": "DET 112\u2013108 BKN",
-          "away_proj": 111.9,
-          "home_proj": 107.5,
-          "total_proj": 219.4,
-          "spread_home": -4.3,
-          "sp_lean": "Lean",
+          "away_win_pct": 0.5443,
+          "home_win_pct": 0.4557,
+          "proj_score": "DET 110\u2013108 BKN",
+          "away_proj": 110.2,
+          "home_proj": 108.5,
+          "total_proj": 218.7,
+          "spread_home": -1.7,
+          "sp_lean": "Slight lean",
           "sp_pick": "DET",
-          "inj_note": "DET \u22128.2 PPG (Jalen Duren (Out)); BKN \u22125.2 PPG (Egor Demin (Out))",
+          "inj_note": "DET \u221211.2 PPG (Isaiah Joe (Out), Jalen Duren (Out)); BKN \u22124.3 PPG (Egor Demin (Out))",
           "sims": 10000
         },
         {
@@ -195,20 +195,20 @@
           "away_name": "New York Knicks",
           "home_name": "Philadelphia 76ers",
           "tip": "6:30 PM CT",
-          "state": "pre",
-          "clock": "Fri, October 30th at 7:30 PM EDT",
-          "score": null,
+          "state": "in",
+          "clock": "1:05 - 2nd Quarter",
+          "score": "NY 41\u201350 PHI",
           "venue": "Xfinity Mobile Arena",
-          "away_win_pct": 0.6003,
-          "home_win_pct": 0.3997,
-          "proj_score": "NY 114\u2013110 PHI",
-          "away_proj": 114.1,
-          "home_proj": 110.0,
-          "total_proj": 224.1,
-          "spread_home": -4.1,
+          "away_win_pct": 0.6569,
+          "home_win_pct": 0.3431,
+          "proj_score": "NY 115\u2013108 PHI",
+          "away_proj": 114.7,
+          "home_proj": 108.2,
+          "total_proj": 222.9,
+          "spread_home": -6.5,
           "sp_lean": "Lean",
           "sp_pick": "NY",
-          "inj_note": "NY \u22122.8 PPG (Jose Alvarado (Out)); PHI \u221210.4 PPG (Jaylen Brown (Day-To-Day), Dominick Barlow (Out))",
+          "inj_note": "NY \u22122.8 PPG (Jose Alvarado (Out)); PHI \u221214.0 PPG (Jaylen Brown (Out), Dominick Barlow (Out))",
           "sims": 10000
         },
         {
@@ -218,9 +218,9 @@
           "away_name": "Orlando Magic",
           "home_name": "Toronto Raptors",
           "tip": "6:30 PM CT",
-          "state": "pre",
-          "clock": "Fri, October 30th at 7:30 PM EDT",
-          "score": null,
+          "state": "in",
+          "clock": "4:26 - 2nd Quarter",
+          "score": "ORL 52\u201345 TOR",
           "venue": "Scotiabank Arena",
           "away_win_pct": 0.2634,
           "home_win_pct": 0.7366,
@@ -241,9 +241,9 @@
           "away_name": "Indiana Pacers",
           "home_name": "Miami Heat",
           "tip": "7:00 PM CT",
-          "state": "pre",
-          "clock": "Fri, October 30th at 8:00 PM EDT",
-          "score": null,
+          "state": "in",
+          "clock": "30.3 - 1st Quarter",
+          "score": "IND 41\u201334 MIA",
           "venue": "Kaseya Center",
           "away_win_pct": 0.194,
           "home_win_pct": 0.806,
@@ -254,7 +254,7 @@
           "spread_home": 13.9,
           "sp_lean": "Lean",
           "sp_pick": "MIA",
-          "inj_note": "IND \u221214.0 PPG (Andrew Nembhard (Day-To-Day), Aaron Nesmith (Day-To-Day), Ivica Zubac (Out), T.J. McConnell (Out))",
+          "inj_note": "IND \u221214.0 PPG (Obi Toppin (Out), T.J. McConnell (Out), Johnny Furphy (Out), Ivica Zubac (Out))",
           "sims": 10000
         },
         {
@@ -264,20 +264,20 @@
           "away_name": "Houston Rockets",
           "home_name": "Dallas Mavericks",
           "tip": "7:00 PM CT",
-          "state": "pre",
-          "clock": "Fri, October 30th at 8:00 PM EDT",
-          "score": null,
+          "state": "in",
+          "clock": "End of 1st Quarter",
+          "score": "HOU 20\u201327 DAL",
           "venue": "American Airlines Center",
-          "away_win_pct": 0.5734,
-          "home_win_pct": 0.4266,
+          "away_win_pct": 0.5582,
+          "home_win_pct": 0.4418,
           "proj_score": "HOU 109\u2013106 DAL",
-          "away_proj": 108.8,
-          "home_proj": 105.7,
-          "total_proj": 214.5,
-          "spread_home": -3.1,
+          "away_proj": 108.6,
+          "home_proj": 106.2,
+          "total_proj": 214.8,
+          "spread_home": -2.4,
           "sp_lean": "Slight lean",
           "sp_pick": "HOU",
-          "inj_note": "HOU \u221214.0 PPG (Reed Sheppard (Out), Marcus Smart (Out), Alperen Sengun (Day-To-Day), Steven Adams (Out)); DAL \u221214.0 PPG (Santi Aldama (Out), Sergio de Larrea (Out), Naji Marshall (Day-To-Day), Dereck Lively II (Out))",
+          "inj_note": "HOU \u221214.0 PPG (Alperen Sengun (Out), Reed Sheppard (Out), Steven Adams (Out)); DAL \u221213.0 PPG (Sergio de Larrea (Out), Santi Aldama (Out), Dereck Lively II (Out))",
           "sims": 10000
         },
         {
@@ -287,9 +287,9 @@
           "away_name": "LA Clippers",
           "home_name": "Minnesota Timberwolves",
           "tip": "7:00 PM CT",
-          "state": "pre",
-          "clock": "Fri, October 30th at 8:00 PM EDT",
-          "score": null,
+          "state": "in",
+          "clock": "11:57 - 2nd Quarter",
+          "score": "LAC 24\u201334 MIN",
           "venue": "Target Center",
           "away_win_pct": 0.3572,
           "home_win_pct": 0.6428,
@@ -314,16 +314,16 @@
           "clock": "Fri, October 30th at 10:00 PM EDT",
           "score": null,
           "venue": "Chase Center",
-          "away_win_pct": 0.6875,
-          "home_win_pct": 0.3125,
-          "proj_score": "LAL 116\u2013108 GS",
-          "away_proj": 115.6,
-          "home_proj": 107.8,
-          "total_proj": 223.5,
-          "spread_home": -7.8,
+          "away_win_pct": 0.6173,
+          "home_win_pct": 0.3827,
+          "proj_score": "LAL 113\u2013109 GS",
+          "away_proj": 113.4,
+          "home_proj": 108.6,
+          "total_proj": 222.0,
+          "spread_home": -4.7,
           "sp_lean": "Lean",
           "sp_pick": "LAL",
-          "inj_note": "LAL \u22122.6 PPG (Ziaire Williams (Day-To-Day)); GS \u221214.0 PPG (Kristaps Porzingis (Out), Moses Moody (Out), Jimmy Butler III (Out))",
+          "inj_note": "LAL \u22127.3 PPG (Ziaire Williams (Out)); GS \u221214.0 PPG (Kristaps Porzingis (Out), Moses Moody (Out), Jimmy Butler III (Out))",
           "sims": 10000
         },
         {
@@ -367,6 +367,102 @@
       ],
       "r": [
         [
+          "2026-10-30",
+          "Trevon Brazile",
+          "Rebounds",
+          "4.5 (Underdog live board 7:40 PM CDT)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "Pending",
+          "84%",
+          "8"
+        ],
+        [
+          "2026-10-30",
+          "Yaxel Lendeborg",
+          "Pts+Reb+Ast",
+          "30.5 (Underdog live board 7:40 PM CDT)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "Pending",
+          "84%",
+          "41"
+        ],
+        [
+          "2026-10-30",
+          "DeMar DeRozan",
+          "Pts+Reb+Ast",
+          "18.5 (Underdog live board 7:40 PM CDT)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "Pending",
+          "81%",
+          "25"
+        ],
+        [
+          "2026-10-30",
+          "Al Horford",
+          "Pts+Reb+Ast",
+          "11.5 (Underdog live board 7:40 PM CDT)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "Pending",
+          "82%",
+          "16"
+        ],
+        [
+          "2026-10-30",
+          "De'Anthony Melton",
+          "Pts+Reb+Ast",
+          "14.5 (Underdog live board 7:40 PM CDT)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "Pending",
+          "80%",
+          "20"
+        ],
+        [
+          "2026-10-30",
+          "Jordan Goodwin",
+          "Pts+Reb+Ast",
+          "12.5 (Underdog live board 7:40 PM CDT)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "Pending",
+          "78%",
+          "17"
+        ],
+        [
+          "2026-10-30",
+          "Collin Sexton",
+          "Assists",
+          "1.5 (Underdog live board 7:40 PM CDT)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "Pending",
+          "78%",
+          "3"
+        ],
+        [
+          "2026-10-30",
+          "Quentin Grimes",
+          "Pts+Reb+Ast",
+          "14.5 (Underdog live board 7:40 PM CDT)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "Pending",
+          "77%",
+          "20"
+        ],
+        [
           "2026-10-29",
           "Domantas Sabonis",
           "Rebounds",
@@ -374,9 +470,9 @@
           "More",
           "PrizePicks/Underdog",
           "No",
-          "Pending",
-          "58%",
-          "16"
+          "W (15)",
+          "\u2014",
+          "\u2014"
         ],
         [
           "2026-10-29",
@@ -386,9 +482,9 @@
           "More",
           "PrizePicks/Underdog",
           "No",
-          "Pending",
-          "56%",
-          "8"
+          "L (7)",
+          "\u2014",
+          "\u2014"
         ],
         [
           "2026-10-29",
@@ -398,9 +494,9 @@
           "More",
           "PrizePicks/Underdog",
           "No",
-          "Pending",
-          "66%",
-          "26"
+          "L (21)",
+          "\u2014",
+          "\u2014"
         ],
         [
           "2026-10-29",
@@ -410,9 +506,9 @@
           "More",
           "PrizePicks/Underdog",
           "No",
-          "Pending",
-          "57%",
-          "23"
+          "W (22)",
+          "\u2014",
+          "\u2014"
         ],
         [
           "2026-10-29",
@@ -422,9 +518,9 @@
           "More",
           "PrizePicks/Underdog",
           "No",
-          "Pending",
-          "51%",
-          "7"
+          "W (7)",
+          "\u2014",
+          "\u2014"
         ],
         [
           "2026-10-29",
@@ -434,9 +530,9 @@
           "More",
           "PrizePicks/Underdog",
           "No",
-          "Pending",
-          "43%",
-          "9"
+          "L (4)",
+          "\u2014",
+          "\u2014"
         ],
         [
           "2026-10-29",
@@ -446,9 +542,9 @@
           "More",
           "PrizePicks/Underdog",
           "No",
-          "Pending",
-          "40%",
-          "22"
+          "L (10)",
+          "\u2014",
+          "\u2014"
         ],
         [
           "2026-10-29",
@@ -458,9 +554,9 @@
           "Less",
           "PrizePicks/Underdog",
           "No",
-          "Pending",
-          "43%",
-          "19"
+          "L (19)",
+          "\u2014",
+          "\u2014"
         ],
         [
           "2026-10-28",
@@ -632,24 +728,21 @@
         ]
       ],
       "entries": {
-        "note": "Oct 29 slip: CLE @ ATL 7:00, SAC @ NO 7:00, MEM @ POR 9:00 PM CT. Lines pulled from Underdog's public board ~12:45 PM CT \u2014 verify in Underdog/PrizePicks; skip a More if the app line is higher (Less if lower).",
-        "2-pick": "Sabonis REB More 14.5 + Jalen Johnson AST More 7.5",
-        "3-pick": "Sabonis REB More 14.5 + LaVine PTS More 21.5 + Coward REB More 6.5",
+        "note": "Oct 30 slip: only LAL @ GS and DEN @ PHX (9:00 PM CT) were still open at 7:40 PM CT. Lines from Underdog's live public board at 7:40 PM CT \u2014 re-check in app before entry. Sim looks high vs this season's game logs; treat as long shot.",
+        "8-pick": "Brazile REB More 4.5 + Lendeborg PRA More 30.5 + DeRozan PRA More 18.5 + Horford PRA More 11.5 + Melton PRA More 14.5 + Goodwin PRA More 12.5 + Sexton AST More 1.5 + Grimes PRA More 14.5",
         "sim": {
-          "2-pick": {
+          "8-pick": {
             "legs": [
-              "Domantas Sabonis",
-              "Jalen Johnson"
+              "Trevon Brazile",
+              "Yaxel Lendeborg",
+              "DeMar DeRozan",
+              "Al Horford",
+              "De'Anthony Melton",
+              "Jordan Goodwin",
+              "Collin Sexton",
+              "Quentin Grimes"
             ],
-            "hit_pct": 0.3223
-          },
-          "3-pick": {
-            "legs": [
-              "Domantas Sabonis",
-              "Zach LaVine",
-              "Cedric Coward"
-            ],
-            "hit_pct": 0.1955
+            "hit_pct": 0.1763
           }
         }
       }
@@ -675,8 +768,8 @@
           "14.5",
           "More",
           "18/19/15/14 REB in 4 games (3/4 over); SAC bigs Raynaud+Cardwell OUT, NO C Missi OUT \u00b7 Underdog line, VERIFY IN APP",
-          "58%",
-          "16"
+          "\u2014",
+          "\u2014"
         ],
         [
           "Jalen Johnson",
@@ -686,8 +779,8 @@
           "7.5",
           "More",
           "6/8/16/11 AST last 4 (3/4 over), 3 straight \u00b7 Underdog line, VERIFY IN APP",
-          "56%",
-          "8"
+          "\u2014",
+          "\u2014"
         ],
         [
           "Zach LaVine",
@@ -697,8 +790,8 @@
           "21.5",
           "More",
           "28/22/37/22 PTS (4/4 over); Murray+Simmons OUT = usage \u00b7 Underdog line, VERIFY IN APP",
-          "66%",
-          "26"
+          "\u2014",
+          "\u2014"
         ],
         [
           "Zion Williamson",
@@ -708,8 +801,8 @@
           "21.5",
           "More",
           "22/23/17/25 PTS (3/4); Poole doubtful, SAC frontcourt thin \u00b7 Underdog line, VERIFY IN APP",
-          "57%",
-          "23"
+          "\u2014",
+          "\u2014"
         ],
         [
           "Cedric Coward",
@@ -719,8 +812,8 @@
           "6.5",
           "More",
           "7/11/11 REB (3/3 over) \u00b7 Underdog line, VERIFY IN APP",
-          "51%",
-          "7"
+          "\u2014",
+          "\u2014"
         ],
         [
           "Evan Mobley",
@@ -730,8 +823,8 @@
           "9.5",
           "More",
           "8/10/10/12 REB (3/4); ATL missing Gueye + Veesaar up front \u00b7 Underdog line, VERIFY IN APP",
-          "43%",
-          "9"
+          "\u2014",
+          "\u2014"
         ],
         [
           "Ty Jerome",
@@ -741,8 +834,8 @@
           "24.5",
           "More",
           "45/28/31/15 PTS (3/4); lead scorer, 30+ min nightly \u00b7 Underdog line, VERIFY IN APP",
-          "40%",
-          "22"
+          "\u2014",
+          "\u2014"
         ],
         [
           "Trey Murphy III",
@@ -752,8 +845,8 @@
           "17.5",
           "Less",
           "11/26/9/6 PTS (3/4 under); 2-7 3PT last game \u00b7 Underdog line, VERIFY IN APP",
-          "43%",
-          "19"
+          "\u2014",
+          "\u2014"
         ]
       ],
       "placeholder": "Tonight's board (Thu Oct 29). Lines from Underdog's public over/under board ~12:45 PM CT; PrizePicks may differ \u2014 verify before locking."
@@ -1240,12 +1333,12 @@
     "Track Record": {
       "summary": {
         "season": 2026,
-        "w": 5,
-        "l": 9,
+        "w": 8,
+        "l": 14,
         "p": 0,
-        "n": 14,
+        "n": 22,
         "pending": 8,
-        "hit": 0.357
+        "hit": 0.364
       },
       "h": [
         "Date",
@@ -1261,6 +1354,102 @@
       ],
       "r": [
         [
+          "2026-10-30",
+          "Trevon Brazile",
+          "Rebounds",
+          "4.5 (Underdog live board 7:40 PM CDT)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "Pending",
+          "84%",
+          "8"
+        ],
+        [
+          "2026-10-30",
+          "Yaxel Lendeborg",
+          "Pts+Reb+Ast",
+          "30.5 (Underdog live board 7:40 PM CDT)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "Pending",
+          "84%",
+          "41"
+        ],
+        [
+          "2026-10-30",
+          "DeMar DeRozan",
+          "Pts+Reb+Ast",
+          "18.5 (Underdog live board 7:40 PM CDT)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "Pending",
+          "81%",
+          "25"
+        ],
+        [
+          "2026-10-30",
+          "Al Horford",
+          "Pts+Reb+Ast",
+          "11.5 (Underdog live board 7:40 PM CDT)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "Pending",
+          "82%",
+          "16"
+        ],
+        [
+          "2026-10-30",
+          "De'Anthony Melton",
+          "Pts+Reb+Ast",
+          "14.5 (Underdog live board 7:40 PM CDT)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "Pending",
+          "80%",
+          "20"
+        ],
+        [
+          "2026-10-30",
+          "Jordan Goodwin",
+          "Pts+Reb+Ast",
+          "12.5 (Underdog live board 7:40 PM CDT)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "Pending",
+          "78%",
+          "17"
+        ],
+        [
+          "2026-10-30",
+          "Collin Sexton",
+          "Assists",
+          "1.5 (Underdog live board 7:40 PM CDT)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "Pending",
+          "78%",
+          "3"
+        ],
+        [
+          "2026-10-30",
+          "Quentin Grimes",
+          "Pts+Reb+Ast",
+          "14.5 (Underdog live board 7:40 PM CDT)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "Pending",
+          "77%",
+          "20"
+        ],
+        [
           "2026-10-29",
           "Domantas Sabonis",
           "Rebounds",
@@ -1268,9 +1457,9 @@
           "More",
           "PrizePicks/Underdog",
           "No",
-          "Pending",
-          "58%",
-          "16"
+          "W (15)",
+          "\u2014",
+          "\u2014"
         ],
         [
           "2026-10-29",
@@ -1280,9 +1469,9 @@
           "More",
           "PrizePicks/Underdog",
           "No",
-          "Pending",
-          "56%",
-          "8"
+          "L (7)",
+          "\u2014",
+          "\u2014"
         ],
         [
           "2026-10-29",
@@ -1292,9 +1481,9 @@
           "More",
           "PrizePicks/Underdog",
           "No",
-          "Pending",
-          "66%",
-          "26"
+          "L (21)",
+          "\u2014",
+          "\u2014"
         ],
         [
           "2026-10-29",
@@ -1304,9 +1493,9 @@
           "More",
           "PrizePicks/Underdog",
           "No",
-          "Pending",
-          "57%",
-          "23"
+          "W (22)",
+          "\u2014",
+          "\u2014"
         ],
         [
           "2026-10-29",
@@ -1316,9 +1505,9 @@
           "More",
           "PrizePicks/Underdog",
           "No",
-          "Pending",
-          "51%",
-          "7"
+          "W (7)",
+          "\u2014",
+          "\u2014"
         ],
         [
           "2026-10-29",
@@ -1328,9 +1517,9 @@
           "More",
           "PrizePicks/Underdog",
           "No",
-          "Pending",
-          "43%",
-          "9"
+          "L (4)",
+          "\u2014",
+          "\u2014"
         ],
         [
           "2026-10-29",
@@ -1340,9 +1529,9 @@
           "More",
           "PrizePicks/Underdog",
           "No",
-          "Pending",
-          "40%",
-          "22"
+          "L (10)",
+          "\u2014",
+          "\u2014"
         ],
         [
           "2026-10-29",
@@ -1352,9 +1541,9 @@
           "Less",
           "PrizePicks/Underdog",
           "No",
-          "Pending",
-          "43%",
-          "19"
+          "L (19)",
+          "\u2014",
+          "\u2014"
         ],
         [
           "2026-10-28",
@@ -1525,7 +1714,7 @@
           "\u2014"
         ]
       ],
-      "note": "Oct 22 + Oct 28 picks graded vs the logged play-if cutoffs using ESPN box scores (lines were unconfirmed in-app). Oct 22: 4-2. Oct 28: 1-7. Oct 29 pending."
+      "note": "Graded vs ESPN box scores. Oct 22: 4-2. Oct 28: 1-7. Oct 29: 3-5. Oct 30 pending."
     }
   },
   "sim": {
@@ -1541,10 +1730,10 @@
     "hfa": 2.5,
     "sigma": 11.5,
     "prior_w": 8.0,
-    "generated": "Oct 30, 2026 12:03 PM CT"
+    "generated": "Oct 30, 2026 7:40 PM CT"
   },
   "props_sim": {
-    "date": "2026-10-29",
+    "date": "2026-10-30",
     "sims": 10000,
     "method": "* Game logs (ESPN athlete gamelog, regular season) for current season, using only games\n    BEFORE the slate date; prior season used as a shrinkage prior (5 pseudo-games for\n    minutes, 150 pseudo-minutes for per-minute rates).\n  * Minutes ~ Normal(mu, sd) clipped [0, 46]; sd = max(4, blended sample sd).\n  * Teammates Out/Doubtful (ESPN injuries feed, live slates only): minutes +15% of their MPG\n    (cap +4) and stat rate x (1 + 0.30 * their share of team production), cap +12%.\n  * Opponent/pace: team projected score from the game sim / team PPG baseline\n    (points use the ratio, reb/ast use its sqrt), shrunk halfway, clipped 0.9-1.1.\n  * Shared game shock (same-game legs): pace z ~ N(0,1) scales every rate by 1+0.05z, and a\n    shared margin draw ~ N(sim spread, 12) cuts minutes 10% in blowouts (|margin| > 18).\n  * Counts ~ Gamma-Poisson (overdispersed) around minutes x rate x adjustments."
   }
