@@ -341,7 +341,7 @@
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "Pending",
+          "L (3)",
           "84%",
           "8"
         ],
@@ -353,7 +353,7 @@
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "Pending",
+          "L (7)",
           "84%",
           "41"
         ],
@@ -365,7 +365,7 @@
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "Pending",
+          "L (9)",
           "81%",
           "25"
         ],
@@ -377,7 +377,7 @@
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "Pending",
+          "L (5)",
           "82%",
           "16"
         ],
@@ -389,7 +389,7 @@
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "Pending",
+          "W (24)",
           "80%",
           "20"
         ],
@@ -401,7 +401,7 @@
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "Pending",
+          "W (21)",
           "78%",
           "17"
         ],
@@ -413,7 +413,7 @@
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "Pending",
+          "L (1)",
           "78%",
           "3"
         ],
@@ -425,7 +425,7 @@
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "Pending",
+          "L (8)",
           "77%",
           "20"
         ],
@@ -1300,12 +1300,12 @@
     "Track Record": {
       "summary": {
         "season": 2026,
-        "w": 8,
-        "l": 14,
+        "w": 10,
+        "l": 20,
         "p": 0,
-        "n": 22,
-        "pending": 8,
-        "hit": 0.364
+        "n": 30,
+        "pending": 0,
+        "hit": 0.333
       },
       "h": [
         "Date",
@@ -1328,7 +1328,7 @@
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "Pending",
+          "L (3)",
           "84%",
           "8"
         ],
@@ -1340,7 +1340,7 @@
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "Pending",
+          "L (7)",
           "84%",
           "41"
         ],
@@ -1352,7 +1352,7 @@
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "Pending",
+          "L (9)",
           "81%",
           "25"
         ],
@@ -1364,7 +1364,7 @@
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "Pending",
+          "L (5)",
           "82%",
           "16"
         ],
@@ -1376,7 +1376,7 @@
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "Pending",
+          "W (24)",
           "80%",
           "20"
         ],
@@ -1388,7 +1388,7 @@
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "Pending",
+          "W (21)",
           "78%",
           "17"
         ],
@@ -1400,7 +1400,7 @@
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "Pending",
+          "L (1)",
           "78%",
           "3"
         ],
@@ -1412,7 +1412,7 @@
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "Pending",
+          "L (8)",
           "77%",
           "20"
         ],
@@ -1681,7 +1681,7 @@
           "\u2014"
         ]
       ],
-      "note": "Graded vs ESPN box scores. Oct 22: 4-2. Oct 28: 1-7. Oct 29: 3-5. Oct 30 pending."
+      "note": "Graded vs ESPN box scores. Oct 22: 4-2. Oct 28: 1-7. Oct 29: 3-5. Oct 30: 2-6."
     }
   },
   "sim": {
