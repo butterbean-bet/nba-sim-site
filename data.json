@@ -1,7 +1,7 @@
 {
   "title": "NBA Pick'em",
   "date": "2026-11-10",
-  "days": "Thursday Oct 29",
+  "days": "Tuesday Nov 10",
   "updated": "Nov 10, 2026 12:04 PM CT",
   "note": "Underdog & PrizePicks only. Never invent lines \u2014 only play if the app line is at or below the cutoff. Grades post after games finalize.",
   "tabs": {
@@ -235,382 +235,123 @@
       ],
       "r": [
         [
-          "2026-10-30",
-          "Trevon Brazile",
+          "2026-11-10",
+          "Wendell Carter Jr.",
           "Rebounds",
-          "4.5 (Underdog live board 7:40 PM CDT)",
+          "8.5 (Underdog live board 8:40 PM CST)",
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "L (3)",
-          "84%",
-          "8"
+          "pending",
+          "67%",
+          "10"
         ],
         [
-          "2026-10-30",
-          "Yaxel Lendeborg",
+          "2026-11-10",
+          "Jamal Cain",
           "Pts+Reb+Ast",
-          "30.5 (Underdog live board 7:40 PM CDT)",
+          "17.5 (Underdog live board 8:40 PM CST)",
+          "Less",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "70%",
+          "14"
+        ],
+        [
+          "2026-11-10",
+          "Darius Acuff Jr.",
+          "Pts+Reb+Ast",
+          "35.5 (Underdog live board 8:40 PM CST)",
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "L (7)",
-          "84%",
+          "pending",
+          "68%",
           "41"
         ],
         [
-          "2026-10-30",
-          "DeMar DeRozan",
-          "Pts+Reb+Ast",
-          "18.5 (Underdog live board 7:40 PM CDT)",
-          "More",
+          "2026-11-10",
+          "Bennett Stirtz",
+          "Rebounds",
+          "2.5 (Underdog live board 8:40 PM CST)",
+          "Less",
           "Underdog",
           "Yes (Underdog board)",
-          "L (9)",
-          "81%",
-          "25"
+          "pending",
+          "76%",
+          "1"
         ],
         [
-          "2026-10-30",
-          "Al Horford",
+          "2026-11-10",
+          "Sidy Cissoko",
           "Pts+Reb+Ast",
-          "11.5 (Underdog live board 7:40 PM CDT)",
+          "9.5 (Underdog live board 8:40 PM CST)",
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "L (5)",
-          "82%",
+          "pending",
+          "75%",
+          "13"
+        ],
+        [
+          "2026-11-10",
+          "Alex Caruso",
+          "Pts+Reb+Ast",
+          "12.5 (Underdog live board 8:40 PM CST)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "71%",
           "16"
         ],
         [
-          "2026-10-30",
-          "De'Anthony Melton",
+          "2026-11-10",
+          "Robert Williams",
           "Pts+Reb+Ast",
-          "14.5 (Underdog live board 7:40 PM CDT)",
+          "12.5 (Underdog live board 8:40 PM CST)",
           "More",
           "Underdog",
           "Yes (Underdog board)",
-          "W (24)",
-          "80%",
-          "20"
-        ],
-        [
-          "2026-10-30",
-          "Jordan Goodwin",
-          "Pts+Reb+Ast",
-          "12.5 (Underdog live board 7:40 PM CDT)",
-          "More",
-          "Underdog",
-          "Yes (Underdog board)",
-          "W (21)",
-          "78%",
-          "17"
-        ],
-        [
-          "2026-10-30",
-          "Collin Sexton",
-          "Assists",
-          "1.5 (Underdog live board 7:40 PM CDT)",
-          "More",
-          "Underdog",
-          "Yes (Underdog board)",
-          "L (1)",
-          "78%",
-          "3"
-        ],
-        [
-          "2026-10-30",
-          "Quentin Grimes",
-          "Pts+Reb+Ast",
-          "14.5 (Underdog live board 7:40 PM CDT)",
-          "More",
-          "Underdog",
-          "Yes (Underdog board)",
-          "L (8)",
-          "77%",
-          "20"
-        ],
-        [
-          "2026-10-29",
-          "Domantas Sabonis",
-          "Rebounds",
-          "14.5 (Underdog; verify in app)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "W (15)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-29",
-          "Jalen Johnson",
-          "Assists",
-          "7.5 (Underdog; verify in app)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "L (7)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-29",
-          "Zach LaVine",
-          "Points",
-          "21.5 (Underdog; verify in app)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "L (21)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-29",
-          "Zion Williamson",
-          "Points",
-          "21.5 (Underdog; verify in app)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "W (22)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-29",
-          "Cedric Coward",
-          "Rebounds",
-          "6.5 (Underdog; verify in app)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "W (7)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-29",
-          "Evan Mobley",
-          "Rebounds",
-          "9.5 (Underdog; verify in app)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "L (4)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-29",
-          "Ty Jerome",
-          "Points",
-          "24.5 (Underdog; verify in app)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "L (10)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-29",
-          "Trey Murphy III",
-          "Points",
-          "17.5 (Underdog; verify in app)",
-          "Less",
-          "PrizePicks/Underdog",
-          "No",
-          "L (19)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-28",
-          "Austin Reaves",
-          "Points",
-          "UNCONFIRMED (play if <=28.5)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "L (16)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-28",
-          "Austin Reaves",
-          "Assists",
-          "UNCONFIRMED (play if <=7.5)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "L (1)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-28",
-          "Brook Lopez",
-          "Points",
-          "UNCONFIRMED (play if <=10.5)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "L (2)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-28",
-          "Kris Dunn",
-          "Assists",
-          "UNCONFIRMED (play if <=4.5)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "L (3)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-28",
-          "Cooper Flagg",
-          "Fantasy",
-          "UNCONFIRMED (play if <=45.5)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "L (44.0 PP scoring)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-28",
-          "Ajay Mitchell",
-          "Points",
-          "UNCONFIRMED (play if <=18.5)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "W (29)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-28",
-          "Darius Garland",
-          "Points",
-          "UNCONFIRMED (play if <=23.5)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "L (14)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-28",
-          "Shai Gilgeous-Alexander",
-          "Assists",
-          "UNCONFIRMED (play if <=6)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "L (2)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-22",
-          "Shai Gilgeous-Alexander",
-          "Points",
-          "UNCONFIRMED (play if <=30.5)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "L (17)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-22",
-          "Tyrese Maxey",
-          "Points+Assists",
-          "UNCONFIRMED (play if <=32.5)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "W (38)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-22",
-          "Joel Embiid",
-          "Rebounds",
-          "UNCONFIRMED (play if <=9.5)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "L (7)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-22",
-          "LeBron James",
-          "Rebounds+Assists",
-          "UNCONFIRMED (play if <=14.5)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "W (15)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-22",
-          "Jaylen Brown",
-          "Rebounds",
-          "UNCONFIRMED (play if <=6.5)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "W (8)",
-          "\u2014",
-          "\u2014"
-        ],
-        [
-          "2026-10-22",
-          "Chet Holmgren",
-          "Blocks",
-          "UNCONFIRMED (play if <=2.5)",
-          "More",
-          "PrizePicks/Underdog",
-          "No",
-          "W (4)",
-          "\u2014",
-          "\u2014"
+          "pending",
+          "82%",
+          "18"
         ]
       ],
       "entries": {
-        "note": "Oct 30 slip: only LAL @ GS and DEN @ PHX (9:00 PM CT) were still open at 7:40 PM CT. Lines from Underdog's live public board at 7:40 PM CT \u2014 re-check in app before entry. Sim looks high vs this season's game logs; treat as long shot.",
-        "8-pick": "Brazile REB More 4.5 + Lendeborg PRA More 30.5 + DeRozan PRA More 18.5 + Horford PRA More 11.5 + Melton PRA More 14.5 + Goodwin PRA More 12.5 + Sexton AST More 1.5 + Grimes PRA More 14.5",
+        "note": "Nov 10 late games: ORL @ SAC (9:00 PM CT) and OKC @ POR (10:00 PM CT). Lines from Underdog's live public board at 8:40 PM CT \u2014 re-check in app before entry. Sim runs high on Mores vs game logs; legs chosen where this season's logs agree.",
+        "3-pick ORL/SAC": "Carter Jr. REB More 8.5 + Cain PRA Less 17.5 + Acuff Jr. PRA More 35.5",
+        "4-pick OKC/POR": "Stirtz REB Less 2.5 + Cissoko PRA More 9.5 + Caruso PRA More 12.5 + R. Williams PRA More 12.5",
         "sim": {
-          "8-pick": {
+          "3-pick ORL/SAC": {
             "legs": [
-              "Trevon Brazile",
-              "Yaxel Lendeborg",
-              "DeMar DeRozan",
-              "Al Horford",
-              "De'Anthony Melton",
-              "Jordan Goodwin",
-              "Collin Sexton",
-              "Quentin Grimes"
+              "Wendell Carter Jr.",
+              "Jamal Cain",
+              "Darius Acuff Jr."
             ],
-            "hit_pct": 0.1763
+            "hit_pct": 0.314
+          },
+          "4-pick OKC/POR": {
+            "legs": [
+              "Bennett Stirtz",
+              "Sidy Cissoko",
+              "Alex Caruso",
+              "Robert Williams"
+            ],
+            "hit_pct": 0.339
+          },
+          "7-pick all": {
+            "legs": [
+              "Wendell Carter Jr.",
+              "Jamal Cain",
+              "Darius Acuff Jr.",
+              "Bennett Stirtz",
+              "Sidy Cissoko",
+              "Alex Caruso",
+              "Robert Williams"
+            ],
+            "hit_pct": 0.106
           }
         }
       }
@@ -1204,8 +945,8 @@
         "w": 10,
         "l": 20,
         "p": 0,
-        "n": 30,
-        "pending": 0,
+        "n": 37,
+        "pending": 7,
         "hit": 0.333
       },
       "h": [
@@ -1221,6 +962,90 @@
         "Sim Median"
       ],
       "r": [
+        [
+          "2026-11-10",
+          "Wendell Carter Jr.",
+          "Rebounds",
+          "8.5 (Underdog live board 8:40 PM CST)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "67%",
+          "10"
+        ],
+        [
+          "2026-11-10",
+          "Jamal Cain",
+          "Pts+Reb+Ast",
+          "17.5 (Underdog live board 8:40 PM CST)",
+          "Less",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "70%",
+          "14"
+        ],
+        [
+          "2026-11-10",
+          "Darius Acuff Jr.",
+          "Pts+Reb+Ast",
+          "35.5 (Underdog live board 8:40 PM CST)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "68%",
+          "41"
+        ],
+        [
+          "2026-11-10",
+          "Bennett Stirtz",
+          "Rebounds",
+          "2.5 (Underdog live board 8:40 PM CST)",
+          "Less",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "76%",
+          "1"
+        ],
+        [
+          "2026-11-10",
+          "Sidy Cissoko",
+          "Pts+Reb+Ast",
+          "9.5 (Underdog live board 8:40 PM CST)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "75%",
+          "13"
+        ],
+        [
+          "2026-11-10",
+          "Alex Caruso",
+          "Pts+Reb+Ast",
+          "12.5 (Underdog live board 8:40 PM CST)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "71%",
+          "16"
+        ],
+        [
+          "2026-11-10",
+          "Robert Williams",
+          "Pts+Reb+Ast",
+          "12.5 (Underdog live board 8:40 PM CST)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "82%",
+          "18"
+        ],
         [
           "2026-10-30",
           "Trevon Brazile",
@@ -1601,7 +1426,7 @@
     "generated": "Nov 10, 2026 12:04 PM CT"
   },
   "props_sim": {
-    "date": "2026-10-30",
+    "date": "2026-11-10",
     "sims": 10000,
     "method": "* Game logs (ESPN athlete gamelog, regular season) for current season, using only games\n    BEFORE the slate date; prior season used as a shrinkage prior (5 pseudo-games for\n    minutes, 150 pseudo-minutes for per-minute rates).\n  * Minutes ~ Normal(mu, sd) clipped [0, 46]; sd = max(4, blended sample sd).\n  * Teammates Out/Doubtful (ESPN injuries feed, live slates only): minutes +15% of their MPG\n    (cap +4) and stat rate x (1 + 0.30 * their share of team production), cap +12%.\n  * Opponent/pace: team projected score from the game sim / team PPG baseline\n    (points use the ratio, reb/ast use its sqrt), shrunk halfway, clipped 0.9-1.1.\n  * Shared game shock (same-game legs): pace z ~ N(0,1) scales every rate by 1+0.05z, and a\n    shared margin draw ~ N(sim spread, 12) cuts minutes 10% in blowouts (|margin| > 18).\n  * Counts ~ Gamma-Poisson (overdispersed) around minutes x rate x adjustments."
   }
