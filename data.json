@@ -2,8 +2,8 @@
   "title": "NBA Pick'em",
   "date": "2026-11-13",
   "days": "Friday Nov 13",
-  "updated": "Nov 13, 2026 5:19 PM CT",
-  "note": "Underdog & PrizePicks only. Never invent lines \u2014 only play if the app line is at or below the cutoff. Grades post after games finalize.",
+  "updated": "Nov 13, 2026 5:49 PM CT",
+  "note": "Underdog & PrizePicks only. Never invent lines — only play if the app line is at or below the cutoff. Grades post after games finalize.",
   "tabs": {
     "Games": {
       "h": [
@@ -21,90 +21,90 @@
           "NY @ IND",
           "6:00 PM CT",
           "6:00 PM CT",
-          "\u2014",
+          "—",
           0.7718,
           0.2282,
-          "NY 113\u2013101 IND",
+          "NY 113–101 IND",
           "Gainbridge Fieldhouse"
         ],
         [
           "MIL @ ORL",
           "6:00 PM CT",
           "6:00 PM CT",
-          "\u2014",
+          "—",
           0.5616,
           0.4384,
-          "MIL 111\u2013108 ORL",
+          "MIL 111–108 ORL",
           "Kia Center"
         ],
         [
           "CLE @ MIA",
           "7:00 PM CT",
           "7:00 PM CT",
-          "\u2014",
+          "—",
           0.3983,
           0.6017,
-          "CLE 114\u2013118 MIA",
+          "CLE 114–118 MIA",
           "Kaseya Center"
         ],
         [
           "ATL @ CHI",
           "7:00 PM CT",
           "7:00 PM CT",
-          "\u2014",
+          "—",
           0.6998,
           0.3002,
-          "ATL 124\u2013115 CHI",
+          "ATL 124–115 CHI",
           "United Center"
         ],
         [
           "MEM @ NO",
           "7:00 PM CT",
           "7:00 PM CT",
-          "\u2014",
+          "—",
           0.5639,
           0.4361,
-          "MEM 117\u2013115 NO",
+          "MEM 117–115 NO",
           "Smoothie King Center"
         ],
         [
           "UTAH @ HOU",
           "7:30 PM CT",
           "7:30 PM CT",
-          "\u2014",
+          "—",
           0.1777,
           0.8223,
-          "UTAH 101\u2013116 HOU",
+          "UTAH 101–116 HOU",
           "Toyota Center (Houston)"
         ],
         [
           "GS @ SA",
           "8:30 PM CT",
           "8:30 PM CT",
-          "\u2014",
+          "—",
           0.3292,
           0.6708,
-          "GS 106\u2013114 SA",
+          "GS 106–114 SA",
           "Frost Bank Center"
         ],
         [
           "POR @ SAC",
           "9:00 PM CT",
           "9:00 PM CT",
-          "\u2014",
+          "—",
           0.5791,
           0.4209,
-          "POR 113\u2013110 SAC",
+          "POR 113–110 SAC",
           "Golden 1 Center"
         ],
         [
           "OKC @ LAC",
           "9:30 PM CT",
           "9:30 PM CT",
-          "\u2014",
+          "—",
           0.5589,
           0.4411,
-          "OKC 109\u2013107 LAC",
+          "OKC 109–107 LAC",
           "Intuit Dome"
         ]
       ],
@@ -122,14 +122,14 @@
           "venue": "Gainbridge Fieldhouse",
           "away_win_pct": 0.7718,
           "home_win_pct": 0.2282,
-          "proj_score": "NY 113\u2013101 IND",
+          "proj_score": "NY 113–101 IND",
           "away_proj": 113.3,
           "home_proj": 101.0,
           "total_proj": 214.3,
           "spread_home": -12.3,
           "sp_lean": "Lean",
           "sp_pick": "NY",
-          "inj_note": "IND \u221214.0 PPG (Aaron Nesmith (Day-To-Day), Tyrese Haliburton (Out), Johnny Furphy (Out), Ben Sheppard (Out))",
+          "inj_note": "IND −14.0 PPG (Aaron Nesmith (Day-To-Day), Tyrese Haliburton (Out), Johnny Furphy (Out), Ben Sheppard (Out))",
           "sims": 10000
         },
         {
@@ -145,14 +145,14 @@
           "venue": "Kia Center",
           "away_win_pct": 0.5616,
           "home_win_pct": 0.4384,
-          "proj_score": "MIL 111\u2013108 ORL",
+          "proj_score": "MIL 111–108 ORL",
           "away_proj": 110.7,
           "home_proj": 108.2,
           "total_proj": 218.9,
           "spread_home": -2.6,
           "sp_lean": "Slight lean",
           "sp_pick": "MIL",
-          "inj_note": "ORL \u221214.0 PPG (Tristan da Silva (Day-To-Day), Jalen Suggs (Out), Paolo Banchero (Out), Noah Penda (Out))",
+          "inj_note": "ORL −14.0 PPG (Tristan da Silva (Day-To-Day), Jalen Suggs (Out), Paolo Banchero (Out), Noah Penda (Out))",
           "sims": 10000
         },
         {
@@ -168,14 +168,14 @@
           "venue": "Kaseya Center",
           "away_win_pct": 0.3983,
           "home_win_pct": 0.6017,
-          "proj_score": "CLE 114\u2013118 MIA",
+          "proj_score": "CLE 114–118 MIA",
           "away_proj": 113.7,
           "home_proj": 118.1,
           "total_proj": 231.8,
           "spread_home": 4.4,
           "sp_lean": "Lean",
           "sp_pick": "MIA",
-          "inj_note": "CLE \u221213.5 PPG (Evan Mobley (Out), Sam Merrill (Out)); MIA \u22127.4 PPG (Klay Thompson (Day-To-Day), Giannis Antetokounmpo (Day-To-Day), Pelle Larsson (Day-To-Day))",
+          "inj_note": "CLE −13.5 PPG (Evan Mobley (Out), Sam Merrill (Out)); MIA −7.4 PPG (Klay Thompson (Day-To-Day), Giannis Antetokounmpo (Day-To-Day), Pelle Larsson (Day-To-Day))",
           "sims": 10000
         },
         {
@@ -191,14 +191,14 @@
           "venue": "United Center",
           "away_win_pct": 0.6998,
           "home_win_pct": 0.3002,
-          "proj_score": "ATL 124\u2013115 CHI",
+          "proj_score": "ATL 124–115 CHI",
           "away_proj": 123.6,
           "home_proj": 115.2,
           "total_proj": 238.8,
           "spread_home": -8.4,
           "sp_lean": "Lean",
           "sp_pick": "ATL",
-          "inj_note": "ATL \u22127.9 PPG (Mouhamed Gueye (Out), Keshon Gilbert (Out), Asa Newell (Out)); CHI \u221214.0 PPG (Norman Powell (Day-To-Day), Caleb Wilson (Out))",
+          "inj_note": "ATL −7.9 PPG (Mouhamed Gueye (Out), Keshon Gilbert (Out), Asa Newell (Out)); CHI −14.0 PPG (Norman Powell (Day-To-Day), Caleb Wilson (Out))",
           "sims": 10000
         },
         {
@@ -214,14 +214,14 @@
           "venue": "Smoothie King Center",
           "away_win_pct": 0.5639,
           "home_win_pct": 0.4361,
-          "proj_score": "MEM 117\u2013115 NO",
+          "proj_score": "MEM 117–115 NO",
           "away_proj": 117.1,
           "home_proj": 114.5,
           "total_proj": 231.6,
           "spread_home": -2.6,
           "sp_lean": "Slight lean",
           "sp_pick": "MEM",
-          "inj_note": "MEM \u221210.4 PPG (Quinten Post (Out), Zach Edey (Out), Scotty Pippen Jr. (Out)); NO \u221212.7 PPG (Trendon Watford (Out), Yves Missi (Out), Trey Murphy III (Day-To-Day))",
+          "inj_note": "MEM −10.4 PPG (Quinten Post (Out), Zach Edey (Out), Scotty Pippen Jr. (Out)); NO −12.7 PPG (Trendon Watford (Out), Yves Missi (Out), Trey Murphy III (Day-To-Day))",
           "sims": 10000
         },
         {
@@ -237,14 +237,14 @@
           "venue": "Toyota Center (Houston)",
           "away_win_pct": 0.1777,
           "home_win_pct": 0.8223,
-          "proj_score": "UTAH 101\u2013116 HOU",
+          "proj_score": "UTAH 101–116 HOU",
           "away_proj": 100.9,
           "home_proj": 115.7,
           "total_proj": 216.6,
           "spread_home": 14.8,
           "sp_lean": "Lean",
           "sp_pick": "HOU",
-          "inj_note": "UTAH \u221214.0 PPG (Trey Alexander (Out), Lauri Markkanen (Out), Jusuf Nurkic (Out), Jaren Jackson Jr. (Out)); HOU \u22128.5 PPG (Marcus Smart (Suspension), Clint Capela (Out), Steven Adams (Out))",
+          "inj_note": "UTAH −14.0 PPG (Trey Alexander (Out), Lauri Markkanen (Out), Jusuf Nurkic (Out), Jaren Jackson Jr. (Out)); HOU −8.5 PPG (Marcus Smart (Suspension), Clint Capela (Out), Steven Adams (Out))",
           "sims": 10000
         },
         {
@@ -260,14 +260,14 @@
           "venue": "Frost Bank Center",
           "away_win_pct": 0.3292,
           "home_win_pct": 0.6708,
-          "proj_score": "GS 106\u2013114 SA",
+          "proj_score": "GS 106–114 SA",
           "away_proj": 106.5,
           "home_proj": 113.7,
           "total_proj": 220.2,
           "spread_home": 7.3,
           "sp_lean": "Lean",
           "sp_pick": "SA",
-          "inj_note": "GS \u221214.0 PPG (Stephen Curry (Out), Brandon Williams (Out), Kristaps Porzingis (Out), Moses Moody (Out)); SA \u221210.9 PPG (Devin Vassell (Day-To-Day), De'Aaron Fox (Day-To-Day), Tobias Harris (Out))",
+          "inj_note": "GS −14.0 PPG (Stephen Curry (Out), Brandon Williams (Out), Kristaps Porzingis (Out), Moses Moody (Out)); SA −10.9 PPG (Devin Vassell (Day-To-Day), De'Aaron Fox (Day-To-Day), Tobias Harris (Out))",
           "sims": 10000
         },
         {
@@ -283,14 +283,14 @@
           "venue": "Golden 1 Center",
           "away_win_pct": 0.5791,
           "home_win_pct": 0.4209,
-          "proj_score": "POR 113\u2013110 SAC",
+          "proj_score": "POR 113–110 SAC",
           "away_proj": 113.2,
           "home_proj": 110.0,
           "total_proj": 223.2,
           "spread_home": -3.2,
           "sp_lean": "Slight lean",
           "sp_pick": "POR",
-          "inj_note": "POR \u221214.0 PPG (Chris Youngblood (Out), Ja Morant (Out), Shaedon Sharpe (Out)); SAC \u221211.1 PPG (Maxime Raynaud (Out), Ben Simmons (Out))",
+          "inj_note": "POR −14.0 PPG (Chris Youngblood (Out), Ja Morant (Out), Shaedon Sharpe (Out)); SAC −11.1 PPG (Maxime Raynaud (Out), Ben Simmons (Out))",
           "sims": 10000
         },
         {
@@ -306,18 +306,18 @@
           "venue": "Intuit Dome",
           "away_win_pct": 0.5589,
           "home_win_pct": 0.4411,
-          "proj_score": "OKC 109\u2013107 LAC",
+          "proj_score": "OKC 109–107 LAC",
           "away_proj": 108.9,
           "home_proj": 106.6,
           "total_proj": 215.5,
           "spread_home": -2.2,
           "sp_lean": "Slight lean",
           "sp_pick": "OKC",
-          "inj_note": "OKC \u221214.0 PPG (Ajay Mitchell (Day-To-Day), Jaylin Williams (Out), Cason Wallace (Out), Chet Holmgren (Out)); LAC \u221214.0 PPG (Brandon Ingram (Out), Yanic Konan Niederhauser (Out), Bradley Beal (Out), Jordan Miller (Out))",
+          "inj_note": "OKC −14.0 PPG (Ajay Mitchell (Day-To-Day), Jaylin Williams (Out), Cason Wallace (Out), Chet Holmgren (Out)); LAC −14.0 PPG (Brandon Ingram (Out), Yanic Konan Niederhauser (Out), Bradley Beal (Out), Jordan Miller (Out))",
           "sims": 10000
         }
       ],
-      "sim_note": "10,000 Monte Carlo sims/game \u00b7 ESPN PPG/OPP blended with prior (w=8) \u00b7 HFA 2.5 pts \u00b7 \u03c3 11.5 \u00b7 injury offense hits when player PPG available. ML win% for board context only (Underdog/PrizePicks pick'em \u2014 not sportsbook tickets)."
+      "sim_note": "10,000 Monte Carlo sims/game · ESPN PPG/OPP blended with prior (w=8) · HFA 2.5 pts · σ 11.5 · injury offense hits when player PPG available. ML win% for board context only (Underdog/PrizePicks pick'em — not sportsbook tickets)."
     },
     "Pick'em": {
       "h": [
@@ -333,6 +333,138 @@
         "Sim Median"
       ],
       "r": [
+        [
+          "2026-11-13",
+          "Anthony Black",
+          "Points+Assists",
+          "20.5 (Underdog live board 5:11 PM CT, lotto)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "69%",
+          "25"
+        ],
+        [
+          "2026-11-13",
+          "Ryan Rollins",
+          "Pts+Reb+Ast",
+          "16.5 (Underdog live board 5:11 PM CT, lotto)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "73%",
+          "21"
+        ],
+        [
+          "2026-11-13",
+          "Jaylen Wells",
+          "Points",
+          "11.5 (Underdog live board 5:11 PM CT, lotto)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "68%",
+          "14"
+        ],
+        [
+          "2026-11-13",
+          "Keyonte George",
+          "Rebounds+Assists",
+          "9.5 (Underdog live board 5:11 PM CT, lotto)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "71%",
+          "12"
+        ],
+        [
+          "2026-11-13",
+          "Darius Acuff Jr.",
+          "Pts+Reb+Ast",
+          "35.5 (Underdog live board 5:11 PM CT, lotto)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "72%",
+          "42"
+        ],
+        [
+          "2026-11-13",
+          "Zach LaVine",
+          "Pts+Reb+Ast",
+          "24.5 (Underdog live board 5:11 PM CT, lotto)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "73%",
+          "31"
+        ],
+        [
+          "2026-11-13",
+          "Kobe Sanders",
+          "Pts+Reb+Ast",
+          "12.5 (Underdog live board 5:11 PM CT, lotto)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "73%",
+          "17"
+        ],
+        [
+          "2026-11-13",
+          "Jalen Brunson",
+          "First Basket",
+          "unconfirmed (not on Underdog public board 5:11 PM CT; first-basket parlay)",
+          "First FG",
+          "Underdog/PrizePicks",
+          "No",
+          "pending",
+          "27%",
+          "—"
+        ],
+        [
+          "2026-11-13",
+          "Jaime Jaquez Jr.",
+          "First Basket",
+          "unconfirmed (not on Underdog public board 5:11 PM CT; first-basket parlay)",
+          "First FG",
+          "Underdog/PrizePicks",
+          "No",
+          "pending",
+          "25%",
+          "—"
+        ],
+        [
+          "2026-11-13",
+          "Bam Adebayo",
+          "First Basket",
+          "unconfirmed (not on Underdog public board 5:11 PM CT; first-basket parlay)",
+          "First FG",
+          "Underdog/PrizePicks",
+          "No",
+          "pending",
+          "36%",
+          "—"
+        ],
+        [
+          "2026-11-13",
+          "Victor Wembanyama",
+          "First Basket",
+          "unconfirmed (not on Underdog public board 5:11 PM CT; first-basket parlay)",
+          "First FG",
+          "Underdog/PrizePicks",
+          "No",
+          "pending",
+          "33%",
+          "—"
+        ],
         [
           "2026-11-13",
           "Andrew Nembhard",
@@ -606,8 +738,8 @@
           "PrizePicks/Underdog",
           "No",
           "W (15)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-29",
@@ -618,8 +750,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (7)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-29",
@@ -630,8 +762,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (21)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-29",
@@ -642,8 +774,8 @@
           "PrizePicks/Underdog",
           "No",
           "W (22)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-29",
@@ -654,8 +786,8 @@
           "PrizePicks/Underdog",
           "No",
           "W (7)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-29",
@@ -666,8 +798,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (4)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-29",
@@ -678,8 +810,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (10)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-29",
@@ -690,8 +822,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (19)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-28",
@@ -702,8 +834,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (16)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-28",
@@ -714,8 +846,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (1)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-28",
@@ -726,8 +858,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (2)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-28",
@@ -738,8 +870,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (3)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-28",
@@ -750,8 +882,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (44.0 PP scoring)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-28",
@@ -762,8 +894,8 @@
           "PrizePicks/Underdog",
           "No",
           "W (29)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-28",
@@ -774,8 +906,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (14)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-28",
@@ -786,8 +918,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (2)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-22",
@@ -798,8 +930,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (17)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-22",
@@ -810,8 +942,8 @@
           "PrizePicks/Underdog",
           "No",
           "W (38)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-22",
@@ -822,8 +954,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (7)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-22",
@@ -834,8 +966,8 @@
           "PrizePicks/Underdog",
           "No",
           "W (15)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-22",
@@ -846,8 +978,8 @@
           "PrizePicks/Underdog",
           "No",
           "W (8)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-22",
@@ -858,12 +990,12 @@
           "PrizePicks/Underdog",
           "No",
           "W (4)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ]
       ],
       "entries": {
-        "note": "Nov 13 7-leg (lines from Underdog's live public board at 5:11 PM CT \u2014 re-check in app before entry). Legs chosen where the 10k sim and this season's ESPN game logs agree; skipped legs where they disagreed or minutes/injury were shaky. PrizePicks was not checked (public API blocked). Nov 10 late-game slip graded 5-2.",
+        "note": "Nov 13: three slips. Safer 7-leg (lines from Underdog's live public board at 5:11 PM CT — re-check in app before entry). 7-leg lotto is a separate, higher-risk slip; legs chosen where the 10k sim and this season's ESPN game logs agree. 4-game first-basket parlay is NOT on Underdog's public board (checked 5:11 PM CT) and PrizePicks was not checked (API captcha-blocked) — unconfirmed, empirical first-FG rates from ESPN play-by-play. Nov 10 late-game slip graded 5-2.",
         "3-pick ORL/SAC": "Carter Jr. REB More 8.5 + Cain PRA Less 17.5 + Acuff Jr. PRA More 35.5",
         "4-pick OKC/POR": "Stirtz REB Less 2.5 + Cissoko PRA More 9.5 + Caruso PRA More 12.5 + R. Williams PRA More 12.5",
         "sim": {
@@ -907,9 +1039,33 @@
               "Keaton Wagler"
             ],
             "hit_pct": 0.0828
+          },
+          "4-pick first basket Nov 13": {
+            "legs": [
+              "Jalen Brunson",
+              "Jaime Jaquez Jr.",
+              "Bam Adebayo",
+              "Victor Wembanyama"
+            ],
+            "hit_pct": 0.008,
+            "method": "product of season game-first-FG rates from ESPN PBP (27% x 25% x 36% x 33%); not a 10k props sim"
+          },
+          "7-pick lotto Nov 13": {
+            "legs": [
+              "Anthony Black",
+              "Ryan Rollins",
+              "Jaylen Wells",
+              "Keyonte George",
+              "Darius Acuff Jr.",
+              "Zach LaVine",
+              "Kobe Sanders"
+            ],
+            "hit_pct": 0.094
           }
         },
-        "7-pick Nov 13": "Nembhard PRA More 24.5 + Ament PRA Less 13.5 + Wiggins PRA Less 18.5 + Sengun AST More 6.5 + Draymond AST More 5.5 + Avdija P+A More 30.5 + Wagler PTS More 10.5"
+        "7-pick Nov 13": "Nembhard PRA More 24.5 + Ament PRA Less 13.5 + Wiggins PRA Less 18.5 + Sengun AST More 6.5 + Draymond AST More 5.5 + Avdija P+A More 30.5 + Wagler PTS More 10.5",
+        "4-pick first basket Nov 13": "Brunson (NY @ IND 6:00) + Jaquez Jr. (MIL @ ORL 6:00) + Adebayo (CLE @ MIA 7:00) + Wembanyama (GS @ SA 8:30)",
+        "7-pick lotto Nov 13": "Black P+A More 20.5 + Rollins PRA More 16.5 + Wells PTS More 11.5 + Keyonte R+A More 9.5 + Acuff Jr. PRA More 35.5 + LaVine PRA More 24.5 + Sanders PRA More 12.5"
       }
     },
     "Player Props": {
@@ -943,7 +1099,7 @@
           "Pts+Reb+Ast",
           "13.5",
           "Less",
-          "8/10 this season (7/13/18/8/11/5/17/12/10/4). Rookie, 17.5 proj min; two blow-ups at 17 and 18 in 19\u201323 min. Underdog 5:11 PM CT, VERIFY IN APP.",
+          "8/10 this season (7/13/18/8/11/5/17/12/10/4). Rookie, 17.5 proj min; two blow-ups at 17 and 18 in 19–23 min. Underdog 5:11 PM CT, VERIFY IN APP.",
           "74%",
           "10"
         ],
@@ -1003,7 +1159,7 @@
           "15"
         ]
       ],
-      "placeholder": "Tonight's board (Thu Oct 29). Lines from Underdog's public over/under board ~12:45 PM CT; PrizePicks may differ \u2014 verify before locking."
+      "placeholder": "Tonight's board (Thu Oct 29). Lines from Underdog's public over/under board ~12:45 PM CT; PrizePicks may differ — verify before locking."
     },
     "Injuries": {
       "h": [
@@ -1017,31 +1173,31 @@
           "ATL",
           "Mouhamed Gueye",
           "Out",
-          "Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during\u2026"
+          "Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during…"
         ],
         [
           "ATL",
           "Henri Veesaar",
           "Out",
-          "Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season,\u2026"
+          "Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season,…"
         ],
         [
           "CHA",
           "Coby White",
           "Out",
-          "Head coach Charles Lee said Monday that White (calf) remains without a timeline for a r\u2026"
+          "Head coach Charles Lee said Monday that White (calf) remains without a timeline for a r…"
         ],
         [
           "CHA",
           "Kon Knueppel",
           "Out",
-          "Knueppel (hamstring) is without a timetable for a return, Rod Boone of The Charlotte Ob\u2026"
+          "Knueppel (hamstring) is without a timetable for a return, Rod Boone of The Charlotte Ob…"
         ],
         [
           "CHA",
           "Grant Williams",
           "Out",
-          "Williams (hamstring) will be re-evaluated following Charlotte's upcoming two-game road \u2026"
+          "Williams (hamstring) will be re-evaluated following Charlotte's upcoming two-game road …"
         ],
         [
           "CHA",
@@ -1053,19 +1209,19 @@
           "CHI",
           "Tobe Awaka",
           "Out",
-          "Awaka (ankle) is out for Wednesday's game against the Knicks, Joel Lorenzi of The Athle\u2026"
+          "Awaka (ankle) is out for Wednesday's game against the Knicks, Joel Lorenzi of The Athle…"
         ],
         [
           "CHI",
           "Patrick Williams",
           "Out",
-          "Williams (adductor) won't play in Wednesday's game against the Knicks, Joel Lorenzi of \u2026"
+          "Williams (adductor) won't play in Wednesday's game against the Knicks, Joel Lorenzi of …"
         ],
         [
           "CHI",
           "Nic Claxton",
           "Out",
-          "Claxton (hamstring) participated in individual drills Monday morning and hopes to join \u2026"
+          "Claxton (hamstring) participated in individual drills Monday morning and hopes to join …"
         ],
         [
           "DAL",
@@ -1119,7 +1275,7 @@
           "DEN",
           "Julian Strawther",
           "Out",
-          "Strawther (knee) was diagnosed with a left knee sprain Friday and will be re-evaluated \u2026"
+          "Strawther (knee) was diagnosed with a left knee sprain Friday and will be re-evaluated …"
         ],
         [
           "DET",
@@ -1131,31 +1287,31 @@
           "DET",
           "Jalen Duren",
           "Out",
-          "Duren will be re-evaluated in two weeks due to a right hamstring strain, Eric Vincent o\u2026"
+          "Duren will be re-evaluated in two weeks due to a right hamstring strain, Eric Vincent o…"
         ],
         [
           "GS",
           "Gui Santos",
           "Out",
-          "Santos has been ruled out for Wednesday's game against the Timberwolves due to left kne\u2026"
+          "Santos has been ruled out for Wednesday's game against the Timberwolves due to left kne…"
         ],
         [
           "GS",
           "Kristaps Porzingis",
           "Out",
-          "The Warriors are exploring potential trades involving Porzingis (personal), who remains\u2026"
+          "The Warriors are exploring potential trades involving Porzingis (personal), who remains…"
         ],
         [
           "GS",
           "Moses Moody",
           "Out",
-          "Moody (knee) is progressing toward a potential return between December and January afte\u2026"
+          "Moody (knee) is progressing toward a potential return between December and January afte…"
         ],
         [
           "GS",
           "Jimmy Butler III",
           "Out",
-          "Butler (knee) could return sometime between January and February as he continues recove\u2026"
+          "Butler (knee) could return sometime between January and February as he continues recove…"
         ],
         [
           "HOU",
@@ -1173,25 +1329,25 @@
           "HOU",
           "Steven Adams",
           "Out",
-          "Head coach Ime Udoka said Monday that Adams could be out \"a week or two\" due to his rig\u2026"
+          "Head coach Ime Udoka said Monday that Adams could be out \"a week or two\" due to his rig…"
         ],
         [
           "IND",
           "T.J. McConnell",
           "Out",
-          "Pacers head coach Rick Carlisle stated McConnell (hamstring) is \"doing better\" and \"get\u2026"
+          "Pacers head coach Rick Carlisle stated McConnell (hamstring) is \"doing better\" and \"get…"
         ],
         [
           "IND",
           "Ben Sheppard",
           "Out",
-          "Head coach Rick Carlise confirmed Sheppard will miss \"months\" after undergoing surgery \u2026"
+          "Head coach Rick Carlise confirmed Sheppard will miss \"months\" after undergoing surgery …"
         ],
         [
           "IND",
           "Tyrese Haliburton",
           "Out",
-          "Haliburton (hamstring) will miss at least the next two weeks of action, Shams Charania \u2026"
+          "Haliburton (hamstring) will miss at least the next two weeks of action, Shams Charania …"
         ],
         [
           "IND",
@@ -1203,43 +1359,43 @@
           "IND",
           "Johnny Furphy",
           "Out",
-          "Furphy was diagnosed with a torn right ACL on Monday and will miss the remainder of the\u2026"
+          "Furphy was diagnosed with a torn right ACL on Monday and will miss the remainder of the…"
         ],
         [
           "LAC",
           "Yanic Konan Niederhauser",
           "Out",
-          "Niederhauser (foot) remains out for Wednesday's game against the Lakers. He also won't \u2026"
+          "Niederhauser (foot) remains out for Wednesday's game against the Lakers. He also won't …"
         ],
         [
           "LAC",
           "Max Strus",
           "Out",
-          "Strus (foot) is making progress but is set to miss at least one more week, Ohm Youngmis\u2026"
+          "Strus (foot) is making progress but is set to miss at least one more week, Ohm Youngmis…"
         ],
         [
           "LAC",
           "Brandon Ingram",
           "Out",
-          "Ingram (Achilles) is making progress but is set to miss at least one more week, Ohm You\u2026"
+          "Ingram (Achilles) is making progress but is set to miss at least one more week, Ohm You…"
         ],
         [
           "LAC",
           "Rui Hachimura",
           "Out",
-          "Hachimura (quadriceps) has been ruled out for Wednesday's game against the Lakers, Joey\u2026"
+          "Hachimura (quadriceps) has been ruled out for Wednesday's game against the Lakers, Joey…"
         ],
         [
           "LAC",
           "Bradley Beal",
           "Out",
-          "Beal (knee) will not be ready for the start of the regular season, NBA writer Justin Ru\u2026"
+          "Beal (knee) will not be ready for the start of the regular season, NBA writer Justin Ru…"
         ],
         [
           "LAC",
           "Jordan Miller",
           "Out",
-          "Miller underwent surgery Wednesday to repair a torn left rotator cuff and will be re-ev\u2026"
+          "Miller underwent surgery Wednesday to repair a torn left rotator cuff and will be re-ev…"
         ],
         [
           "LAL",
@@ -1275,25 +1431,25 @@
           "MIN",
           "Anthony Edwards",
           "Out",
-          "Edwards will undergo arthroscopic right knee surgery and is expected to miss up to two \u2026"
+          "Edwards will undergo arthroscopic right knee surgery and is expected to miss up to two …"
         ],
         [
           "MIN",
           "Donte DiVincenzo",
           "Out",
-          "DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jo\u2026"
+          "DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jo…"
         ],
         [
           "NO",
           "Jordan Poole",
           "Day-To-Day",
-          "Poole (ankle) won't return to Wednesday's game against the Nuggets. He finished with tw\u2026"
+          "Poole (ankle) won't return to Wednesday's game against the Nuggets. He finished with tw…"
         ],
         [
           "NO",
           "Yves Missi",
           "Out",
-          "Missi has been diagnosed with a left knee bone bruise and he will miss an extended peri\u2026"
+          "Missi has been diagnosed with a left knee bone bruise and he will miss an extended peri…"
         ],
         [
           "NY",
@@ -1305,13 +1461,13 @@
           "OKC",
           "Jalen Williams",
           "Out",
-          "Williams (leg) underwent successful surgery Wednesday to \"address a fractured left fibu\u2026"
+          "Williams (leg) underwent successful surgery Wednesday to \"address a fractured left fibu…"
         ],
         [
           "OKC",
           "Alex Caruso",
           "Out",
-          "Caruso (ankle) is expected to miss time due to an ankle sprain, Clemente Almanza of USA\u2026"
+          "Caruso (ankle) is expected to miss time due to an ankle sprain, Clemente Almanza of USA…"
         ],
         [
           "OKC",
@@ -1335,7 +1491,7 @@
           "OKC",
           "Cason Wallace",
           "Out",
-          "Wallace has been diagnosed with a torn labrum in his left shoulder and will require sur\u2026"
+          "Wallace has been diagnosed with a torn labrum in his left shoulder and will require sur…"
         ],
         [
           "OKC",
@@ -1353,25 +1509,25 @@
           "ORL",
           "Jalen Suggs",
           "Out",
-          "Suggs has been diagnosed with a mild bone bruise in his right knee and will be re-evalu\u2026"
+          "Suggs has been diagnosed with a mild bone bruise in his right knee and will be re-evalu…"
         ],
         [
           "ORL",
           "Paolo Banchero",
           "Out",
-          "Banchero is expected to be sidelined for the next four-to-six weeks due to a right high\u2026"
+          "Banchero is expected to be sidelined for the next four-to-six weeks due to a right high…"
         ],
         [
           "ORL",
           "Noah Penda",
           "Out",
-          "Penda was diagnosed with a partially torn right hamstring Saturday, Jason Beede of the \u2026"
+          "Penda was diagnosed with a partially torn right hamstring Saturday, Jason Beede of the …"
         ],
         [
           "ORL",
           "Izaiyah Nelson",
           "Out",
-          "Team president Jeff Weltman said Monday that Nelson (ankle) remains about a month away \u2026"
+          "Team president Jeff Weltman said Monday that Nelson (ankle) remains about a month away …"
         ],
         [
           "PHI",
@@ -1389,43 +1545,43 @@
           "PHI",
           "Dominick Barlow",
           "Out",
-          "Barlow will miss at least the next two weeks of action due to a lumbar spine bone stres\u2026"
+          "Barlow will miss at least the next two weeks of action due to a lumbar spine bone stres…"
         ],
         [
           "PHI",
           "Ariel Hukporti",
           "Out",
-          "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charan\u2026"
+          "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charan…"
         ],
         [
           "SA",
           "Tobias Harris",
           "Out",
-          "Harris (calf) is out for Wednesday's game against Utah, Paul Garcia of ProjectSpurs.com\u2026"
+          "Harris (calf) is out for Wednesday's game against Utah, Paul Garcia of ProjectSpurs.com…"
         ],
         [
           "SA",
           "Jayden Quaintance",
           "Out",
-          "Quaintance has been around the team but has not yet been cleared for basketball activit\u2026"
+          "Quaintance has been around the team but has not yet been cleared for basketball activit…"
         ],
         [
           "TOR",
           "Nate Bittle",
           "Out",
-          "Bittle (foot) has been ruled out for Wednesday's game against the Magic, Cody Taylor of\u2026"
+          "Bittle (foot) has been ruled out for Wednesday's game against the Magic, Cody Taylor of…"
         ],
         [
           "TOR",
           "Kawhi Leonard",
           "Out",
-          "Leonard (knee) is expected to miss multiple weeks due to swelling in his left knee, Sha\u2026"
+          "Leonard (knee) is expected to miss multiple weeks due to swelling in his left knee, Sha…"
         ],
         [
           "UTAH",
           "Darryn Peterson",
           "Day-To-Day",
-          "Peterson exited to the locker room in the first quarter of Wednesday's game against the\u2026"
+          "Peterson exited to the locker room in the first quarter of Wednesday's game against the…"
         ],
         [
           "UTAH",
@@ -1437,7 +1593,7 @@
           "UTAH",
           "Jaren Jackson Jr.",
           "Out",
-          "Jackson has been diagnosed with a torn MCL in his right knee and will be sidelined for \u2026"
+          "Jackson has been diagnosed with a torn MCL in his right knee and will be sidelined for …"
         ],
         [
           "UTAH",
@@ -1449,13 +1605,13 @@
           "UTAH",
           "Jusuf Nurkic",
           "Out",
-          "Nurkic will miss at least the next four weeks due to a partial plantar plate tear of se\u2026"
+          "Nurkic will miss at least the next four weeks due to a partial plantar plate tear of se…"
         ],
         [
           "WSH",
           "Tre Johnson",
           "Out",
-          "Johnson has been ruled out for Wednesday's game against the Cavaliers due to right Achi\u2026"
+          "Johnson has been ruled out for Wednesday's game against the Cavaliers due to right Achi…"
         ],
         [
           "WSH",
@@ -1479,7 +1635,7 @@
           "DAL",
           "Kyrie Irving",
           "Available",
-          "Available vs OKC \u2014 watch minutes before locking any Kyrie props."
+          "Available vs OKC — watch minutes before locking any Kyrie props."
         ]
       ],
       "source": "ESPN public injuries feed + tonight's Mavs/Clippers slate notes (Luka OUT; OKC JDub/Chet/Caruso/Wallace OUT; LAC Beal/Ingram/Strus/Hachimura OUT)."
@@ -1490,8 +1646,8 @@
         "w": 15,
         "l": 22,
         "p": 0,
-        "n": 44,
-        "pending": 7,
+        "n": 55,
+        "pending": 18,
         "hit": 0.405
       },
       "h": [
@@ -1507,6 +1663,138 @@
         "Sim Median"
       ],
       "r": [
+        [
+          "2026-11-13",
+          "Anthony Black",
+          "Points+Assists",
+          "20.5 (Underdog live board 5:11 PM CT, lotto)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "69%",
+          "25"
+        ],
+        [
+          "2026-11-13",
+          "Ryan Rollins",
+          "Pts+Reb+Ast",
+          "16.5 (Underdog live board 5:11 PM CT, lotto)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "73%",
+          "21"
+        ],
+        [
+          "2026-11-13",
+          "Jaylen Wells",
+          "Points",
+          "11.5 (Underdog live board 5:11 PM CT, lotto)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "68%",
+          "14"
+        ],
+        [
+          "2026-11-13",
+          "Keyonte George",
+          "Rebounds+Assists",
+          "9.5 (Underdog live board 5:11 PM CT, lotto)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "71%",
+          "12"
+        ],
+        [
+          "2026-11-13",
+          "Darius Acuff Jr.",
+          "Pts+Reb+Ast",
+          "35.5 (Underdog live board 5:11 PM CT, lotto)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "72%",
+          "42"
+        ],
+        [
+          "2026-11-13",
+          "Zach LaVine",
+          "Pts+Reb+Ast",
+          "24.5 (Underdog live board 5:11 PM CT, lotto)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "73%",
+          "31"
+        ],
+        [
+          "2026-11-13",
+          "Kobe Sanders",
+          "Pts+Reb+Ast",
+          "12.5 (Underdog live board 5:11 PM CT, lotto)",
+          "More",
+          "Underdog",
+          "Yes (Underdog board)",
+          "pending",
+          "73%",
+          "17"
+        ],
+        [
+          "2026-11-13",
+          "Jalen Brunson",
+          "First Basket",
+          "unconfirmed (not on Underdog public board 5:11 PM CT; first-basket parlay)",
+          "First FG",
+          "Underdog/PrizePicks",
+          "No",
+          "pending",
+          "27%",
+          "—"
+        ],
+        [
+          "2026-11-13",
+          "Jaime Jaquez Jr.",
+          "First Basket",
+          "unconfirmed (not on Underdog public board 5:11 PM CT; first-basket parlay)",
+          "First FG",
+          "Underdog/PrizePicks",
+          "No",
+          "pending",
+          "25%",
+          "—"
+        ],
+        [
+          "2026-11-13",
+          "Bam Adebayo",
+          "First Basket",
+          "unconfirmed (not on Underdog public board 5:11 PM CT; first-basket parlay)",
+          "First FG",
+          "Underdog/PrizePicks",
+          "No",
+          "pending",
+          "36%",
+          "—"
+        ],
+        [
+          "2026-11-13",
+          "Victor Wembanyama",
+          "First Basket",
+          "unconfirmed (not on Underdog public board 5:11 PM CT; first-basket parlay)",
+          "First FG",
+          "Underdog/PrizePicks",
+          "No",
+          "pending",
+          "33%",
+          "—"
+        ],
         [
           "2026-11-13",
           "Andrew Nembhard",
@@ -1780,8 +2068,8 @@
           "PrizePicks/Underdog",
           "No",
           "W (15)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-29",
@@ -1792,8 +2080,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (7)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-29",
@@ -1804,8 +2092,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (21)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-29",
@@ -1816,8 +2104,8 @@
           "PrizePicks/Underdog",
           "No",
           "W (22)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-29",
@@ -1828,8 +2116,8 @@
           "PrizePicks/Underdog",
           "No",
           "W (7)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-29",
@@ -1840,8 +2128,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (4)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-29",
@@ -1852,8 +2140,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (10)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-29",
@@ -1864,8 +2152,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (19)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-28",
@@ -1876,8 +2164,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (16)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-28",
@@ -1888,8 +2176,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (1)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-28",
@@ -1900,8 +2188,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (2)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-28",
@@ -1912,8 +2200,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (3)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-28",
@@ -1924,8 +2212,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (44.0 PP scoring)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-28",
@@ -1936,8 +2224,8 @@
           "PrizePicks/Underdog",
           "No",
           "W (29)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-28",
@@ -1948,8 +2236,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (14)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-28",
@@ -1960,8 +2248,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (2)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-22",
@@ -1972,8 +2260,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (17)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-22",
@@ -1984,8 +2272,8 @@
           "PrizePicks/Underdog",
           "No",
           "W (38)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-22",
@@ -1996,8 +2284,8 @@
           "PrizePicks/Underdog",
           "No",
           "L (7)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-22",
@@ -2008,8 +2296,8 @@
           "PrizePicks/Underdog",
           "No",
           "W (15)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-22",
@@ -2020,8 +2308,8 @@
           "PrizePicks/Underdog",
           "No",
           "W (8)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ],
         [
           "2026-10-22",
@@ -2032,8 +2320,8 @@
           "PrizePicks/Underdog",
           "No",
           "W (4)",
-          "\u2014",
-          "\u2014"
+          "—",
+          "—"
         ]
       ],
       "note": "Graded vs ESPN box scores. Oct 22: 4-2. Oct 28: 1-7. Oct 29: 3-5. Oct 30: 2-6. Nov 10: 5-2."
@@ -2041,7 +2329,7 @@
   },
   "sim": {
     "sims": 10000,
-    "method": "Additive ESPN PPG/OPP blend (current + prior pseudo-games), injury offense hits (retain 0.45, cap 14.0), home +2.5/2 each side, Normal scores \u03c3=11.5 with shared pace shock, OT resolves ties. 10000 sims/game.",
+    "method": "Additive ESPN PPG/OPP blend (current + prior pseudo-games), injury offense hits (retain 0.45, cap 14.0), home +2.5/2 each side, Normal scores σ=11.5 with shared pace shock, OT resolves ties. 10000 sims/game.",
     "sources": [
       "ESPN standings season 2027",
       "ESPN standings season 2026",
