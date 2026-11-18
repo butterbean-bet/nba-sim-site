@@ -160,7 +160,20 @@
           "sp_lean": "Slight lean",
           "sp_pick": "CLE",
           "inj_note": "MEM \u221214.0 PPG (GG Jackson (Out), Isaiah Stewart (Out), Ty Jerome (Out), Scotty Pippen Jr. (Out)); CLE \u221214.0 PPG (Nae'Qwan Tomlin (Out), Sam Merrill (Out), Evan Mobley (Out))",
-          "sims": 10000
+          "sims": 10000,
+          "markets": {
+            "polymarket_home_win_pct": 0.635,
+            "polymarket_away_win_pct": 0.365,
+            "polymarket_volume": 27943.224229,
+            "polymarket_liquidity": 201211.054,
+            "kalshi_home_win_pct": 0.635,
+            "kalshi_away_win_pct": 0.365,
+            "kalshi_volume": 154434.76,
+            "kalshi_open_interest": 136445.0,
+            "pm_gap_pts": 7.7,
+            "kalshi_gap_pts": 7.7,
+            "flag_10": false
+          }
         },
         {
           "matchup": "HOU @ IND",
@@ -183,7 +196,20 @@
           "sp_lean": "Lean",
           "sp_pick": "HOU",
           "inj_note": "HOU \u22123.9 PPG (Clint Capela (Out), Amen Thompson (Day-To-Day)); IND \u221214.0 PPG (Andrew Nembhard (Day-To-Day), Tyrese Haliburton (Out), Johnny Furphy (Out), Ben Sheppard (Out))",
-          "sims": 10000
+          "sims": 10000,
+          "markets": {
+            "polymarket_home_win_pct": 0.275,
+            "polymarket_away_win_pct": 0.725,
+            "polymarket_volume": 75203.75641700001,
+            "polymarket_liquidity": 211225.5378,
+            "kalshi_home_win_pct": 0.265,
+            "kalshi_away_win_pct": 0.735,
+            "kalshi_volume": 166304.57,
+            "kalshi_open_interest": 157752.83000000002,
+            "pm_gap_pts": -0.3,
+            "kalshi_gap_pts": -1.3,
+            "flag_10": false
+          }
         },
         {
           "matchup": "MIL @ MIA",
@@ -206,7 +232,20 @@
           "sp_lean": "Lean",
           "sp_pick": "MIA",
           "inj_note": "MIL \u22122.1 PPG (Ousmane Dieng (Out)); MIA \u22123.3 PPG (Bam Adebayo (Day-To-Day))",
-          "sims": 10000
+          "sims": 10000,
+          "markets": {
+            "polymarket_home_win_pct": 0.855,
+            "polymarket_away_win_pct": 0.145,
+            "polymarket_volume": 191183.989949,
+            "polymarket_liquidity": 222217.2259,
+            "kalshi_home_win_pct": 0.845,
+            "kalshi_away_win_pct": 0.155,
+            "kalshi_volume": 530729.03,
+            "kalshi_open_interest": 472451.74,
+            "pm_gap_pts": 18.1,
+            "kalshi_gap_pts": 17.1,
+            "flag_10": true
+          }
         },
         {
           "matchup": "PHI @ ORL",
@@ -229,7 +268,20 @@
           "sp_lean": "Coin flip",
           "sp_pick": "No lean",
           "inj_note": "PHI \u221214.0 PPG (Dominick Barlow (Out), Jaylen Brown (Out)); ORL \u221214.0 PPG (Noah Penda (Out), Paolo Banchero (Out))",
-          "sims": 10000
+          "sims": 10000,
+          "markets": {
+            "polymarket_home_win_pct": 0.505,
+            "polymarket_away_win_pct": 0.495,
+            "polymarket_volume": 145752.553402,
+            "polymarket_liquidity": 244765.6109,
+            "kalshi_home_win_pct": 0.505,
+            "kalshi_away_win_pct": 0.495,
+            "kalshi_volume": 1362837.46,
+            "kalshi_open_interest": 1155763.93,
+            "pm_gap_pts": -1.2,
+            "kalshi_gap_pts": -1.2,
+            "flag_10": false
+          }
         },
         {
           "matchup": "CHI @ BKN",
@@ -252,7 +304,20 @@
           "sp_lean": "Lean",
           "sp_pick": "BKN",
           "inj_note": "CHI \u221212.6 PPG (Caleb Wilson (Out))",
-          "sims": 10000
+          "sims": 10000,
+          "markets": {
+            "polymarket_home_win_pct": 0.565,
+            "polymarket_away_win_pct": 0.435,
+            "polymarket_volume": 19846.940342,
+            "polymarket_liquidity": 163715.6241,
+            "kalshi_home_win_pct": 0.565,
+            "kalshi_away_win_pct": 0.435,
+            "kalshi_volume": 54617.26,
+            "kalshi_open_interest": 51990.34,
+            "pm_gap_pts": -20.2,
+            "kalshi_gap_pts": -20.2,
+            "flag_10": true
+          }
         },
         {
           "matchup": "WSH @ TOR",
@@ -275,7 +340,20 @@
           "sp_lean": "Lean",
           "sp_pick": "TOR",
           "inj_note": "WSH \u221213.2 PPG (Tristan Vukcevic (Out), Justin Champagnie (Out), Jamir Watkins (Out)); TOR \u221214.0 PPG (RJ Barrett (Day-To-Day), Scottie Barnes (Out), Kawhi Leonard (Out))",
-          "sims": 10000
+          "sims": 10000,
+          "markets": {
+            "polymarket_home_win_pct": 0.645,
+            "polymarket_away_win_pct": 0.355,
+            "polymarket_volume": 199740.72051099996,
+            "polymarket_liquidity": 133963.9749,
+            "kalshi_home_win_pct": 0.64,
+            "kalshi_away_win_pct": 0.36,
+            "kalshi_volume": 338148.56999999995,
+            "kalshi_open_interest": 242154.52,
+            "pm_gap_pts": -2.8,
+            "kalshi_gap_pts": -3.3,
+            "flag_10": false
+          }
         },
         {
           "matchup": "DET @ NO",
@@ -298,7 +376,20 @@
           "sp_lean": "Lean",
           "sp_pick": "DET",
           "inj_note": "DET \u221214.0 PPG (Isaiah Joe (Out), Duncan Robinson (Out), Jalen Duren (Out)); NO \u221214.0 PPG (Bennedict Mathurin (Out), Bryce McGowens (Out), Trendon Watford (Out), Trey Murphy III (Out))",
-          "sims": 10000
+          "sims": 10000,
+          "markets": {
+            "polymarket_home_win_pct": 0.365,
+            "polymarket_away_win_pct": 0.635,
+            "polymarket_volume": 374960.125188,
+            "polymarket_liquidity": 140247.8547,
+            "kalshi_home_win_pct": 0.355,
+            "kalshi_away_win_pct": 0.645,
+            "kalshi_volume": 281906.29,
+            "kalshi_open_interest": 241737.37,
+            "pm_gap_pts": -3.9,
+            "kalshi_gap_pts": -4.9,
+            "flag_10": false
+          }
         },
         {
           "matchup": "ATL @ OKC",
@@ -321,7 +412,20 @@
           "sp_lean": "Lean",
           "sp_pick": "OKC",
           "inj_note": "ATL \u221214.0 PPG (Jock Landale (Out), Kingston Flemings (Out), Asa Newell (Out), CJ McCollum (Out)); OKC \u221214.0 PPG (Jaylin Williams (Out), Cason Wallace (Out), Chet Holmgren (Out), Jalen Williams (Out))",
-          "sims": 10000
+          "sims": 10000,
+          "markets": {
+            "polymarket_home_win_pct": 0.695,
+            "polymarket_away_win_pct": 0.305,
+            "polymarket_volume": 29683.043293999996,
+            "polymarket_liquidity": 144973.7264,
+            "kalshi_home_win_pct": 0.695,
+            "kalshi_away_win_pct": 0.305,
+            "kalshi_volume": 56793.479999999996,
+            "kalshi_open_interest": 51979.57,
+            "pm_gap_pts": 6.6,
+            "kalshi_gap_pts": 6.6,
+            "flag_10": false
+          }
         },
         {
           "matchup": "GS @ DAL",
@@ -344,7 +448,20 @@
           "sp_lean": "Slight lean",
           "sp_pick": "DAL",
           "inj_note": "GS \u221214.0 PPG (Brandon Williams (Out), Stephen Curry (Out), Kristaps Porzingis (Out), Moses Moody (Out)); DAL \u22128.3 PPG (Sergio de Larrea (Out), Dereck Lively II (Out))",
-          "sims": 10000
+          "sims": 10000,
+          "markets": {
+            "polymarket_home_win_pct": 0.645,
+            "polymarket_away_win_pct": 0.355,
+            "polymarket_volume": 55472.38373799999,
+            "polymarket_liquidity": 214340.8431,
+            "kalshi_home_win_pct": 0.635,
+            "kalshi_away_win_pct": 0.365,
+            "kalshi_volume": 166042.45,
+            "kalshi_open_interest": 157665.22999999998,
+            "pm_gap_pts": 4.6,
+            "kalshi_gap_pts": 3.6,
+            "flag_10": false
+          }
         },
         {
           "matchup": "BOS @ DEN",
@@ -367,7 +484,20 @@
           "sp_lean": "Slight lean",
           "sp_pick": "BOS",
           "inj_note": "DEN \u22124.0 PPG (Julian Strawther (Out))",
-          "sims": 10000
+          "sims": 10000,
+          "markets": {
+            "polymarket_home_win_pct": 0.445,
+            "polymarket_away_win_pct": 0.555,
+            "polymarket_volume": 66292.93591999999,
+            "polymarket_liquidity": 174344.7183,
+            "kalshi_home_win_pct": 0.4422,
+            "kalshi_away_win_pct": 0.5578,
+            "kalshi_volume": 145394.45,
+            "kalshi_open_interest": 141046.24,
+            "pm_gap_pts": 4.3,
+            "kalshi_gap_pts": 4.1,
+            "flag_10": false
+          }
         },
         {
           "matchup": "UTAH @ LAL",
@@ -390,7 +520,20 @@
           "sp_lean": "Lean",
           "sp_pick": "LAL",
           "inj_note": "UTAH \u221214.0 PPG (Lauri Markkanen (Out), Jusuf Nurkic (Out), Jaren Jackson Jr. (Out)); LAL \u22125.4 PPG (Austin Reaves (Day-To-Day), Walker Kessler (Day-To-Day))",
-          "sims": 10000
+          "sims": 10000,
+          "markets": {
+            "polymarket_home_win_pct": 0.825,
+            "polymarket_away_win_pct": 0.175,
+            "polymarket_volume": 240349.29190900002,
+            "polymarket_liquidity": 124947.9245,
+            "kalshi_home_win_pct": 0.825,
+            "kalshi_away_win_pct": 0.175,
+            "kalshi_volume": 352426.22000000003,
+            "kalshi_open_interest": 335044.39,
+            "pm_gap_pts": -0.5,
+            "kalshi_gap_pts": -0.5,
+            "flag_10": false
+          }
         },
         {
           "matchup": "PHX @ SAC",
@@ -413,10 +556,24 @@
           "sp_lean": "Lean",
           "sp_pick": "PHX",
           "inj_note": "PHX \u22126.4 PPG (Mark Williams (Out)); SAC \u221213.0 PPG (Maxime Raynaud (Out), De'Andre Hunter (Day-To-Day), Ben Simmons (Out))",
-          "sims": 10000
+          "sims": 10000,
+          "markets": {
+            "polymarket_home_win_pct": 0.285,
+            "polymarket_away_win_pct": 0.715,
+            "polymarket_volume": 19953.811509,
+            "polymarket_liquidity": 148105.3358,
+            "kalshi_home_win_pct": 0.285,
+            "kalshi_away_win_pct": 0.715,
+            "kalshi_volume": 68672.08,
+            "kalshi_open_interest": 62700.490000000005,
+            "pm_gap_pts": -3.6,
+            "kalshi_gap_pts": -3.6,
+            "flag_10": false
+          }
         }
       ],
-      "sim_note": "10,000 Monte Carlo sims/game \u00b7 ESPN PPG/OPP blended with prior (w=8) \u00b7 HFA 2.5 pts \u00b7 \u03c3 11.5 \u00b7 injury offense hits when player PPG available. ML win% for board context only (Underdog/PrizePicks pick'em \u2014 not sportsbook tickets)."
+      "sim_note": "10,000 Monte Carlo sims/game \u00b7 ESPN PPG/OPP blended with prior (w=8) \u00b7 HFA 2.5 pts \u00b7 \u03c3 11.5 \u00b7 injury offense hits when player PPG available. ML win% for board context only (Underdog/PrizePicks pick'em \u2014 not sportsbook tickets).",
+      "market_note": "Polymarket and Kalshi home/away win % are mid prices from the public game-winner books, normalized to 100% (fetched Nov 18, 2026 3:21 PM CT). A 10+ point gap vs the sim is flagged. Volume is the contract/notional figure those APIs report. Not betting advice \u2014 board context only."
     },
     "Pick'em": {
       "h": [
@@ -2445,5 +2602,320 @@
     "date": "2026-11-13",
     "sims": 10000,
     "method": "* Game logs (ESPN athlete gamelog, regular season) for current season, using only games\n    BEFORE the slate date; prior season used as a shrinkage prior (5 pseudo-games for\n    minutes, 150 pseudo-minutes for per-minute rates).\n  * Minutes ~ Normal(mu, sd) clipped [0, 46]; sd = max(4, blended sample sd).\n  * Teammates Out/Doubtful (ESPN injuries feed, live slates only): minutes +15% of their MPG\n    (cap +4) and stat rate x (1 + 0.30 * their share of team production), cap +12%.\n  * Opponent/pace: team projected score from the game sim / team PPG baseline\n    (points use the ratio, reb/ast use its sqrt), shrunk halfway, clipped 0.9-1.1.\n  * Shared game shock (same-game legs): pace z ~ N(0,1) scales every rate by 1+0.05z, and a\n    shared margin draw ~ N(sim spread, 12) cuts minutes 10% in blowouts (|margin| > 18).\n  * Counts ~ Gamma-Poisson (overdispersed) around minutes x rate x adjustments."
+  },
+  "markets": {
+    "fetched_at": "Nov 18, 2026 3:21 PM CT",
+    "date": "2026-11-18",
+    "sources": [
+      "Polymarket Gamma API (https://gamma-api.polymarket.com, no auth)",
+      "Kalshi public trade-api (https://api.elections.kalshi.com/trade-api/v2, no auth)"
+    ],
+    "method": "Mid of yes bid/ask when both sides of the book exist; otherwise last trade (or a one-sided quote). The two sides of a game are then rescaled to sum to 100%. Player-prop % is P(over) for More and P(under) for Less. If the market line is not the app line, the % is for the market line and the mismatch is noted.",
+    "note": "Polymarket and Kalshi home/away win % are mid prices from the public game-winner books, normalized to 100% (fetched Nov 18, 2026 3:21 PM CT). A 10+ point gap vs the sim is flagged. Volume is the contract/notional figure those APIs report. Not betting advice \u2014 board context only.",
+    "props_coverage": "Logged Pick'em / Player Props legs are from earlier slates (not 2026-11-18), so there is no live market price to put next to those sim hit %. Polymarket has player O/Us on 12 of 12 games tonight (2712 points/rebounds/assists/threes/steals/blocks contracts). It does not list PRA / P+A / R+A combos on these game pages. Kalshi has open player-prop series tonight: KXNBAPTS, KXNBAREB, KXNBAAST, KXNBAPRA, KXNBA3PT, KXNBASTL, KXNBABLK. None of tonight's props are on a logged slip.",
+    "games": {
+      "MEM @ CLE": {
+        "away": "MEM",
+        "home": "CLE",
+        "sim_away_win_pct": 0.4423,
+        "sim_home_win_pct": 0.5577,
+        "polymarket": {
+          "home_win_pct": 0.635,
+          "away_win_pct": 0.365,
+          "volume": 27943.224229,
+          "liquidity": 201211.054,
+          "slug": "nba-mem-cle-2026-11-18",
+          "question": "Grizzlies vs. Cavaliers"
+        },
+        "kalshi": {
+          "home_win_pct": 0.635,
+          "away_win_pct": 0.365,
+          "volume": 154434.76,
+          "open_interest": 136445.0,
+          "event_ticker": "KXNBAGAME-26NOV18MEMCLE",
+          "title": "Memphis vs Cleveland"
+        },
+        "pm_gap_pts": 7.7,
+        "kalshi_gap_pts": 7.7,
+        "flag_10": false
+      },
+      "HOU @ IND": {
+        "away": "HOU",
+        "home": "IND",
+        "sim_away_win_pct": 0.7219,
+        "sim_home_win_pct": 0.2781,
+        "polymarket": {
+          "home_win_pct": 0.275,
+          "away_win_pct": 0.725,
+          "volume": 75203.75641700001,
+          "liquidity": 211225.5378,
+          "slug": "nba-hou-ind-2026-11-18",
+          "question": "Rockets vs. Pacers"
+        },
+        "kalshi": {
+          "home_win_pct": 0.265,
+          "away_win_pct": 0.735,
+          "volume": 166304.57,
+          "open_interest": 157752.83000000002,
+          "event_ticker": "KXNBAGAME-26NOV18HOUIND",
+          "title": "Houston vs Indiana"
+        },
+        "pm_gap_pts": -0.3,
+        "kalshi_gap_pts": -1.3,
+        "flag_10": false
+      },
+      "MIL @ MIA": {
+        "away": "MIL",
+        "home": "MIA",
+        "sim_away_win_pct": 0.3261,
+        "sim_home_win_pct": 0.6739,
+        "polymarket": {
+          "home_win_pct": 0.855,
+          "away_win_pct": 0.145,
+          "volume": 191183.989949,
+          "liquidity": 222217.2259,
+          "slug": "nba-mil-mia-2026-11-18",
+          "question": "Bucks vs. Heat"
+        },
+        "kalshi": {
+          "home_win_pct": 0.845,
+          "away_win_pct": 0.155,
+          "volume": 530729.03,
+          "open_interest": 472451.74,
+          "event_ticker": "KXNBAGAME-26NOV18MILMIA",
+          "title": "Milwaukee vs Miami"
+        },
+        "pm_gap_pts": 18.1,
+        "kalshi_gap_pts": 17.1,
+        "flag_10": true
+      },
+      "PHI @ ORL": {
+        "away": "PHI",
+        "home": "ORL",
+        "sim_away_win_pct": 0.4829,
+        "sim_home_win_pct": 0.5171,
+        "polymarket": {
+          "home_win_pct": 0.505,
+          "away_win_pct": 0.495,
+          "volume": 145752.553402,
+          "liquidity": 244765.6109,
+          "slug": "nba-phi-orl-2026-11-18",
+          "question": "76ers vs. Magic"
+        },
+        "kalshi": {
+          "home_win_pct": 0.505,
+          "away_win_pct": 0.495,
+          "volume": 1362837.46,
+          "open_interest": 1155763.93,
+          "event_ticker": "KXNBAGAME-26NOV18PHIORL",
+          "title": "Philadelphia vs Orlando"
+        },
+        "pm_gap_pts": -1.2,
+        "kalshi_gap_pts": -1.2,
+        "flag_10": false
+      },
+      "CHI @ BKN": {
+        "away": "CHI",
+        "home": "BKN",
+        "sim_away_win_pct": 0.2326,
+        "sim_home_win_pct": 0.7674,
+        "polymarket": {
+          "home_win_pct": 0.565,
+          "away_win_pct": 0.435,
+          "volume": 19846.940342,
+          "liquidity": 163715.6241,
+          "slug": "nba-chi-bkn-2026-11-18",
+          "question": "Bulls vs. Nets"
+        },
+        "kalshi": {
+          "home_win_pct": 0.565,
+          "away_win_pct": 0.435,
+          "volume": 54617.26,
+          "open_interest": 51990.34,
+          "event_ticker": "KXNBAGAME-26NOV18CHIBKN",
+          "title": "Chicago vs Brooklyn"
+        },
+        "pm_gap_pts": -20.2,
+        "kalshi_gap_pts": -20.2,
+        "flag_10": true
+      },
+      "WSH @ TOR": {
+        "away": "WSH",
+        "home": "TOR",
+        "sim_away_win_pct": 0.327,
+        "sim_home_win_pct": 0.673,
+        "polymarket": {
+          "home_win_pct": 0.645,
+          "away_win_pct": 0.355,
+          "volume": 199740.72051099996,
+          "liquidity": 133963.9749,
+          "slug": "nba-was-tor-2026-11-18",
+          "question": "Wizards vs. Raptors"
+        },
+        "kalshi": {
+          "home_win_pct": 0.64,
+          "away_win_pct": 0.36,
+          "volume": 338148.56999999995,
+          "open_interest": 242154.52,
+          "event_ticker": "KXNBAGAME-26NOV18WASTOR",
+          "title": "Washington vs Toronto"
+        },
+        "pm_gap_pts": -2.8,
+        "kalshi_gap_pts": -3.3,
+        "flag_10": false
+      },
+      "DET @ NO": {
+        "away": "DET",
+        "home": "NO",
+        "sim_away_win_pct": 0.5961,
+        "sim_home_win_pct": 0.4039,
+        "polymarket": {
+          "home_win_pct": 0.365,
+          "away_win_pct": 0.635,
+          "volume": 374960.125188,
+          "liquidity": 140247.8547,
+          "slug": "nba-det-nop-2026-11-18",
+          "question": "Pistons vs. Pelicans"
+        },
+        "kalshi": {
+          "home_win_pct": 0.355,
+          "away_win_pct": 0.645,
+          "volume": 281906.29,
+          "open_interest": 241737.37,
+          "event_ticker": "KXNBAGAME-26NOV18DETNOP",
+          "title": "Detroit vs New Orleans"
+        },
+        "pm_gap_pts": -3.9,
+        "kalshi_gap_pts": -4.9,
+        "flag_10": false
+      },
+      "ATL @ OKC": {
+        "away": "ATL",
+        "home": "OKC",
+        "sim_away_win_pct": 0.3708,
+        "sim_home_win_pct": 0.6292,
+        "polymarket": {
+          "home_win_pct": 0.695,
+          "away_win_pct": 0.305,
+          "volume": 29683.043293999996,
+          "liquidity": 144973.7264,
+          "slug": "nba-atl-okc-2026-11-18",
+          "question": "Hawks vs. Thunder"
+        },
+        "kalshi": {
+          "home_win_pct": 0.695,
+          "away_win_pct": 0.305,
+          "volume": 56793.479999999996,
+          "open_interest": 51979.57,
+          "event_ticker": "KXNBAGAME-26NOV18ATLOKC",
+          "title": "Atlanta vs Oklahoma City"
+        },
+        "pm_gap_pts": 6.6,
+        "kalshi_gap_pts": 6.6,
+        "flag_10": false
+      },
+      "GS @ DAL": {
+        "away": "GS",
+        "home": "DAL",
+        "sim_away_win_pct": 0.4006,
+        "sim_home_win_pct": 0.5994,
+        "polymarket": {
+          "home_win_pct": 0.645,
+          "away_win_pct": 0.355,
+          "volume": 55472.38373799999,
+          "liquidity": 214340.8431,
+          "slug": "nba-gsw-dal-2026-11-18",
+          "question": "Warriors vs. Mavericks"
+        },
+        "kalshi": {
+          "home_win_pct": 0.635,
+          "away_win_pct": 0.365,
+          "volume": 166042.45,
+          "open_interest": 157665.22999999998,
+          "event_ticker": "KXNBAGAME-26NOV18GSWDAL",
+          "title": "Golden State vs Dallas"
+        },
+        "pm_gap_pts": 4.6,
+        "kalshi_gap_pts": 3.6,
+        "flag_10": false
+      },
+      "BOS @ DEN": {
+        "away": "BOS",
+        "home": "DEN",
+        "sim_away_win_pct": 0.5984,
+        "sim_home_win_pct": 0.4016,
+        "polymarket": {
+          "home_win_pct": 0.445,
+          "away_win_pct": 0.555,
+          "volume": 66292.93591999999,
+          "liquidity": 174344.7183,
+          "slug": "nba-bos-den-2026-11-18",
+          "question": "Celtics vs. Nuggets"
+        },
+        "kalshi": {
+          "home_win_pct": 0.4422,
+          "away_win_pct": 0.5578,
+          "volume": 145394.45,
+          "open_interest": 141046.24,
+          "event_ticker": "KXNBAGAME-26NOV18BOSDEN",
+          "title": "Boston vs Denver"
+        },
+        "pm_gap_pts": 4.3,
+        "kalshi_gap_pts": 4.1,
+        "flag_10": false
+      },
+      "UTAH @ LAL": {
+        "away": "UTAH",
+        "home": "LAL",
+        "sim_away_win_pct": 0.1697,
+        "sim_home_win_pct": 0.8303,
+        "polymarket": {
+          "home_win_pct": 0.825,
+          "away_win_pct": 0.175,
+          "volume": 240349.29190900002,
+          "liquidity": 124947.9245,
+          "slug": "nba-uta-lal-2026-11-18",
+          "question": "Jazz vs. Lakers"
+        },
+        "kalshi": {
+          "home_win_pct": 0.825,
+          "away_win_pct": 0.175,
+          "volume": 352426.22000000003,
+          "open_interest": 335044.39,
+          "event_ticker": "KXNBAGAME-26NOV18UTALAL",
+          "title": "Utah vs Los Angeles L"
+        },
+        "pm_gap_pts": -0.5,
+        "kalshi_gap_pts": -0.5,
+        "flag_10": false
+      },
+      "PHX @ SAC": {
+        "away": "PHX",
+        "home": "SAC",
+        "sim_away_win_pct": 0.6788,
+        "sim_home_win_pct": 0.3212,
+        "polymarket": {
+          "home_win_pct": 0.285,
+          "away_win_pct": 0.715,
+          "volume": 19953.811509,
+          "liquidity": 148105.3358,
+          "slug": "nba-phx-sac-2026-11-18",
+          "question": "Suns vs. Kings"
+        },
+        "kalshi": {
+          "home_win_pct": 0.285,
+          "away_win_pct": 0.715,
+          "volume": 68672.08,
+          "open_interest": 62700.490000000005,
+          "event_ticker": "KXNBAGAME-26NOV18PHXSAC",
+          "title": "Phoenix vs Sacramento"
+        },
+        "pm_gap_pts": -3.6,
+        "kalshi_gap_pts": -3.6,
+        "flag_10": false
+      }
+    },
+    "props": [],
+    "errors": []
   }
 }
